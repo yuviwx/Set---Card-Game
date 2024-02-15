@@ -96,6 +96,7 @@ public class Table {
      * @param slot - the slot in which the card should be placed.
      * @PRE: board.get(slot) == null;
      * @POST: board.get(slot).getCard() == card;
+     * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
         try {
@@ -139,6 +140,8 @@ public class Table {
      * @PRE: !board.get(slot).getTokens().contains(player)
      * @POST: board.get(slot).getTokens().contains(player)
      */
+    
+    
     public void placeToken(int player, int slot) {
         if(!board.get(slot).getTokens().contains(player)) {
             board.get(slot).addToken(player);
@@ -165,5 +168,11 @@ public class Table {
             System.out.println("there isnt a token on the slot");
         }
         return false;
+    }
+
+    public Vector<Slot> getBoard() {return this.board;}
+
+    public boolean isPlaced(int player, int slot){
+        return board.get(slot).isPlaced(player);
     }
 }

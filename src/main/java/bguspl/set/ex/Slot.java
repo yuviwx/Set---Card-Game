@@ -15,11 +15,15 @@ public class Slot {
 
     public Integer getCard() {return this.card;}
 
-    public void addToken(int id){
-        this.tokens.add(id);
+    public void addToken(Integer player){
+        this.tokens.add(player);
     }
 
-    public void removeToken(Integer id) {
-        this.tokens.remove(id);
+    public void removeToken(Integer player){
+        this.tokens.remove(player);
+    }
+
+    public boolean isPlaced(int player){
+        return tokens.contains(player);
     }
 }

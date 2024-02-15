@@ -1,6 +1,10 @@
 package bguspl.set.ex;
 
+import java.util.Random;
+import java.util.concurrent.ArrayBlockingQueue;  
+import java.util.Scanner;
 import bguspl.set.Env;
+
 
 /**
  * This class manages the players' threads and data
@@ -50,6 +54,16 @@ public class Player implements Runnable {
      */
     private int score;
 
+    /*
+     * This queue contains the keys to be pressed
+     */
+    private ArrayBlockingQueue<Integer> incomingActions;
+
+    /*
+     * Contains tokens
+     */
+    private ArrayBlockingQueue<Integer> tokens;
+
     /**
      * The class constructor.
      *
@@ -64,6 +78,8 @@ public class Player implements Runnable {
         this.table = table;
         this.id = id;
         this.human = human;
+        this.incomingActions = new ArrayBlockingQueue<Integer>(3);
+        this.tokens = new ArrayBlockingQueue<Integer>(3);
     }
 
     /**
@@ -74,10 +90,14 @@ public class Player implements Runnable {
         playerThread = Thread.currentThread();
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         if (!human) createArtificialIntelligence();
-
+        Scanner scan = new Scanner(System.in);
+        char key;
         while (!terminate) {
-            // TODO implement main player loop
+            if(human) incomingActions.add((int)scan.nextLine().charAt(0)); // Get action from the user
+            keyPressed(keyToSlot(incomingActions.peek()));
+            //limit to 3
         }
+    
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
     }
@@ -90,11 +110,19 @@ public class Player implements Runnable {
         // note: this is a very, very smart AI (!)
         aiThread = new Thread(() -> {
             env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
+            Random rand;
+            Integer nextPress;
             while (!terminate) {
-                // TODO implement player key press simulator
-                try {
-                    synchronized (this) { wait(); }
-                } catch (InterruptedException ignored) {}
+                //generating random keypress for the computeragenet
+                rand = new Random();
+                nextPress = rand.nextInt(12);
+                incomingActions.add(env.config.playerKeys(id)[nextPress]);
+                //if the computeragenet has genereated 3 key-presses we tell the thread to wait
+                    try {
+                        synchronized (this) {
+                            while(incomingActions.size() == 3){incomingActions.wait();}
+                        }
+                    } catch (InterruptedException ignored) {}   
             }
             env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
         }, "computer-" + id);
@@ -110,11 +138,20 @@ public class Player implements Runnable {
 
     /**
      * This method is called when a key is pressed.
-     *
+     * 
      * @param slot - the slot corresponding to the key pressed.
      */
-    public void keyPressed(int slot) {
-        // TODO implement
+    public synchronized void keyPressed(int slot)  {
+           if(table.isPlaced(id, slot)) {
+                table.removeToken(id, slot);
+                tokens.remove(slot);
+           }
+           else {
+                table.placeToken(id, slot);
+                tokens.add(slot);
+            }
+           incomingActions.remove();
+           incomingActions.notify();     
     }
 
     /**
@@ -140,4 +177,11 @@ public class Player implements Runnable {
     public int score() {
         return score;
     }
+
+    private int keyToSlot(int key) {
+    int[] playerKeys = env.config.playerKeys(id);    
+    for(int i=0; i<playerKeys.length; i++)
+        if(playerKeys[i] == key) return i;
+    return -1;
+    } 
 }
