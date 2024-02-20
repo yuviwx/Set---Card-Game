@@ -129,4 +129,10 @@ public class Dealer implements Runnable {
     private void announceWinners() {
         // TODO implement
     }
+
+    public boolean checkSet(int playerID) {
+        //TODO implement
+        
+        return true;
+    }
 }

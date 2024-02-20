@@ -36,7 +36,8 @@ public class Table {
     /*
      * The data stracture for the game 
      */
-    final Vector<Slot> board;
+
+    final Vector<Vector<Integer>> tokens;
     
     /**
      * Constructor for testing.
@@ -51,7 +52,7 @@ public class Table {
         this.env = env;
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
-        this.board = new Vector<Slot>(12);
+        this.tokens = new Vector<Vector<Integer>>(env.config.players);
     }
 
     /**
@@ -94,18 +95,17 @@ public class Table {
      * Places a card on the table in a grid slot.
      * @param card - the card id to place in the slot.
      * @param slot - the slot in which the card should be placed.
-     * @PRE: board.get(slot) == null;
-     * @POST: board.get(slot).getCard() == card;
+     * @PRE: cardToSlot[card] == slotToCard[slot] == null;
+     * @POST: cardToSlot[card] == slot; slotToCard[slot] == card;
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
         try {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
-        if(board.get(slot) == null){
+        if(slotToCard[slot] == null){
             cardToSlot[card] = slot;
             slotToCard[slot] = card;
-            board.set(slot,new Slot(card)); //adding a card to its slot
         }
         else {
             System.out.println("This slot is already occupied");
@@ -115,18 +115,17 @@ public class Table {
     /**
      * Removes a card from a grid slot on the table.
      * @param slot - the slot from which to remove the card.
-     * @PRE: board.get(slot) != null;
-     * @POST: board.get(slot) == null;
+     * @PRE: none
+     * @POST: cardToSlot[card] == slotToCard[slot] == null;
      */
     public void removeCard(int slot) {
         try {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
-        if(board.get(slot) != null){
+        if(slotToCard[slot] != null){
             int card = slotToCard[slot];
-            slotToCard[slot] = null;
             cardToSlot[card] = null;
-            board.set(slot, null);
+            slotToCard[slot] = null;
         }
         else {
             System.out.println("the slot is already empty you idiot");
@@ -134,45 +133,36 @@ public class Table {
     }
 
     /**
-     * Places a player token on a grid slot.
+     * Places a player's token on a grid slot.
      * @param player - the player the token belongs to.
      * @param slot   - the slot on which to place the token.
-     * @PRE: !board.get(slot).getTokens().contains(player)
-     * @POST: board.get(slot).getTokens().contains(player)
+     * @PRE: !tokens.get(player).contains(slotToCard[slot]);
+     * @POST: tokens.get(player).contains(slotToCard[slot]);
      */
-    
-    
     public void placeToken(int player, int slot) {
-        if(!board.get(slot).getTokens().contains(player)) {
-            board.get(slot).addToken(player);
-        }
-        else {
-            System.out.println("the token aleady exist");
-        }                
+            tokens.get(player).add(slotToCard[slot]);                       
     }
 
     /**
      * Removes a token of a player from a grid slot.
      * @param player - the player the token belongs to.
      * @param slot   - the slot from which to remove the token.
-     * @PRE board.get(slot).getTokens().contains(player)
-     * @POST !board.get(slot).getTokens().contains(player)
-     * @return       - true iff a token was successfully removed.
+     * @PRE tokens.get(player).contains(slotToCard[slot])
+     * @POST !tokens.get(player).contains(slotToCard[slot])
+     * @return - true iff a token was successfully removed.
      */
-    public boolean removeToken(int player, int slot) {
-        if(board.get(slot).getTokens().contains(player)) {
-            board.get(slot).removeToken(player);
+    public synchronized boolean removeToken(int player, int slot) {
+        if(tokens.get(player).contains(slotToCard[slot])) {
+
+            tokens.get(player).remove(slotToCard[slot]);                       
             return true;
         }
         else {
-            System.out.println("there isnt a token on the slot");
+            return false;
         }
-        return false;
     }
 
-    public Vector<Slot> getBoard() {return this.board;}
-
     public boolean isPlaced(int player, int slot){
-        return board.get(slot).isPlaced(player);
+        return tokens.get(player).contains(slotToCard[slot]);
     }
 }
