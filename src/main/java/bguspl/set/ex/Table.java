@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.Vector;
+import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * This class contains the data that is visible to the player.
@@ -38,6 +39,7 @@ public class Table {
      */
 
     final Vector<Vector<Integer>> tokens;
+    final ArrayBlockingQueue<Integer> waitingForDealer;
     
     /**
      * Constructor for testing.
@@ -53,6 +55,7 @@ public class Table {
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
         this.tokens = new Vector<Vector<Integer>>(env.config.players);
+        this.waitingForDealer = new ArrayBlockingQueue<Integer>(env.config.players);
     }
 
     /**
@@ -106,6 +109,7 @@ public class Table {
         if(slotToCard[slot] == null){
             cardToSlot[card] = slot;
             slotToCard[slot] = card;
+            env.ui.placeCard(card, slot);
         }
         else {
             System.out.println("This slot is already occupied");
@@ -126,11 +130,15 @@ public class Table {
             int card = slotToCard[slot];
             cardToSlot[card] = null;
             slotToCard[slot] = null;
+            env.ui.removeCard(slot);
+            env.ui.removeTokens(slot);
+            for(int i =0; i<env.config.players; i++) removeToken(i, slot);
         }
         else {
             System.out.println("the slot is already empty you idiot");
         }
     }
+    
 
     /**
      * Places a player's token on a grid slot.
@@ -139,8 +147,14 @@ public class Table {
      * @PRE: !tokens.get(player).contains(slotToCard[slot]);
      * @POST: tokens.get(player).contains(slotToCard[slot]);
      */
-    public void placeToken(int player, int slot) {
-            tokens.get(player).add(slotToCard[slot]);                       
+    public synchronized void placeToken(int player, int slot) {
+            tokens.get(player).add(slotToCard[slot]);
+            env.ui.placeToken(player, slot);
+            if(tokens.get(player).size() == env.config.featureCount) {
+                waitingForDealer.add(player);
+                waitingForDealer.notify();
+            } 
+
     }
 
     /**
@@ -153,8 +167,8 @@ public class Table {
      */
     public synchronized boolean removeToken(int player, int slot) {
         if(tokens.get(player).contains(slotToCard[slot])) {
-
-            tokens.get(player).remove(slotToCard[slot]);                       
+            tokens.get(player).remove(slotToCard[slot]);
+            env.ui.removeToken(player, slot);
             return true;
         }
         else {

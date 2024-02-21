@@ -66,7 +66,10 @@ public class Player implements Runnable {
     /*
      * Contains tokens
      */
-    private int tokenCount;
+    
+    public boolean point;
+    public boolean penalty;
+
 
     /**
      * The class constructor.
@@ -83,8 +86,9 @@ public class Player implements Runnable {
         this.table = table;
         this.id = id;
         this.human = human;
-        this.incomingActions = new ArrayBlockingQueue<Integer>(3);
-        this.tokenCount = 0;
+        this.incomingActions = new ArrayBlockingQueue<Integer>(env.config.featureCount);
+        this.point = false;
+        this.penalty = false;
     }
 
     /**
@@ -100,9 +104,19 @@ public class Player implements Runnable {
         // Run loop
         while (!terminate) {
             if(human) incomingActions.add((int)scan.nextLine().charAt(0)); // Get action from the user
-            keyPressed(keyToSlot(incomingActions.peek()));
-            // wake dealer up                                        
-
+            int slot = keyToSlot(incomingActions.peek());
+            if(slot != -1) keyPressed(slot); else continue;
+            // Checks if there are 'featureCount' amount of tokes:
+            synchronized(table.tokens.get(id)) {
+                while(table.tokens.size() == env.config.featureCount){
+                    try {
+                        table.tokens.get(id).wait(); // wait for the dealer response
+                    } catch (InterruptedException ignored) {}
+                }
+                // Award/penalize the player
+                if(point) point();
+                if(penalty) penalty();                                   
+            }
         }    
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -111,8 +125,9 @@ public class Player implements Runnable {
     /**
      * Creates an additional thread for an AI (computer) player. The main loop of this thread repeatedly generates
      * key presses. If the queue of key presses is full, the thread waits until it is not full.
+     * @PRE: (!human)
      */
-    private synchronized void createArtificialIntelligence() {
+    private void createArtificialIntelligence() {
         // note: this is a very, very smart AI (!)
         aiThread = new Thread(() -> {
             env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
@@ -121,13 +136,19 @@ public class Player implements Runnable {
             int[] playerKeys = env.config.playerKeys(id);
             while (!terminate) {
                 //if the computer agent has genereated 3 key-presses we tell the thread to wait
-                if(incomingActions.size() < env.config.featureCount){
-                    //generating random keypress for the computeragenet
-                    nextPress = rand.nextInt(12);
-                    incomingActions.add(playerKeys[nextPress]);
-                } else {
-                    try{ aiThread.wait();}
-                    catch (InterruptedException ignored) {}
+                synchronized(aiThread){
+                    if(incomingActions.size() < env.config.featureCount){
+                        //generating random keypress for the computeragenet
+                        nextPress = rand.nextInt(12);
+                        incomingActions.add(playerKeys[nextPress]);
+                    } else {
+                        try{ aiThread.wait();}
+                        catch (InterruptedException ignored) {}
+                    }
+                    // Make the ai presses be slower
+                    try{
+                        Thread.sleep((long)1000);
+                    }catch(InterruptedException ignored) {}
                 }
             }
             env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -150,14 +171,12 @@ public class Player implements Runnable {
     public synchronized void keyPressed(int slot)  {
            if(table.isPlaced(id, slot)) {
                 table.removeToken(id, slot);
-                tokenCount--;
            }
            else {
                 table.placeToken(id, slot);
-                tokenCount++;
             }
            incomingActions.remove();
-           if(tokenCount < env.config.featureCount && !human)  aiThread.notify(); // Notify the ai to continue generate keypresses   
+           if(table.tokens.get(id).size() < env.config.featureCount && !human)  aiThread.notify(); // Notify the ai to continue generate keypresses   
     }
 
     /**
@@ -173,6 +192,7 @@ public class Player implements Runnable {
         } catch (InterruptedException ignored) {} 
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
         env.ui.setScore(id, ++score);
+        point = false;
     }
 
     /**
@@ -182,6 +202,7 @@ public class Player implements Runnable {
          try {
             Thread.sleep(env.config.penaltyFreezeMillis);
         } catch (InterruptedException ignored) {} 
+        penalty = false;
     }
 
     public int score() {
@@ -194,4 +215,9 @@ public class Player implements Runnable {
         if(playerKeys[i] == key) return i;
     return -1;
     } 
+
+    public void setCheckSet(boolean result) {
+        if(result) point = true;
+        else penalty = true;
+    }
 }
