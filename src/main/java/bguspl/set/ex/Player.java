@@ -66,10 +66,8 @@ public class Player implements Runnable {
     /*
      * Contains tokens
      */
-    
     public boolean point;
     public boolean penalty;
-
 
     /**
      * The class constructor.
@@ -86,7 +84,7 @@ public class Player implements Runnable {
         this.table = table;
         this.id = id;
         this.human = human;
-        this.incomingActions = new ArrayBlockingQueue<Integer>(env.config.featureCount);
+        this.incomingActions = new ArrayBlockingQueue<Integer>(env.config.featureSize);
         this.point = false;
         this.penalty = false;
     }
@@ -96,19 +94,26 @@ public class Player implements Runnable {
      */
     @Override
     public void run() {
+
         playerThread = Thread.currentThread();
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         if (!human) createArtificialIntelligence(); // Generate presskeys for ai
-        Scanner scan = new Scanner(System.in); //For human player
+        //Scanner scan = new Scanner(System.in); //For human player
         char key;
         // Run loop
         while (!terminate) {
-            if(human) incomingActions.add((int)scan.nextLine().charAt(0)); // Get action from the user
-            int slot = keyToSlot(incomingActions.peek());
-            if(slot != -1) keyPressed(slot); else continue;
-            // Checks if there are 'featureCount' amount of tokes:
+            /*if(human) {
+                int input = scan.nextLine().charAt(0);
+                incomingActions.add(input); // Get action from the user
+            }*/
+            if(!human && !incomingActions.isEmpty()){
+                int slot = keyToSlot(incomingActions.peek());
+                if(slot != -1) keyPressed(slot); else continue;
+            }
+            
+            // Checks if there are 'featureSize' amount of tokes:
             synchronized(table.tokens.get(id)) {
-                while(table.tokens.size() == env.config.featureCount){
+                while(table.tokens.size() == env.config.featureSize){
                     try {
                         table.tokens.get(id).wait(); // wait for the dealer response
                     } catch (InterruptedException ignored) {}
@@ -137,7 +142,7 @@ public class Player implements Runnable {
             while (!terminate) {
                 //if the computer agent has genereated 3 key-presses we tell the thread to wait
                 synchronized(aiThread){
-                    if(incomingActions.size() < env.config.featureCount){
+                    if(incomingActions.size() < env.config.featureSize ){
                         //generating random keypress for the computeragenet
                         nextPress = rand.nextInt(12);
                         incomingActions.add(playerKeys[nextPress]);
@@ -169,14 +174,17 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public synchronized void keyPressed(int slot)  {
-           if(table.isPlaced(id, slot)) {
-                table.removeToken(id, slot);
-           }
-           else {
-                table.placeToken(id, slot);
-            }
-           incomingActions.remove();
-           if(table.tokens.get(id).size() < env.config.featureCount && !human)  aiThread.notify(); // Notify the ai to continue generate keypresses   
+        if(table.isPlaced(id, slot)) {
+        System.out.println(table.isPlaced(id, slot));
+            table.removeToken(id, slot);
+        }
+        else {
+            table.placeToken(id, slot);
+        }
+        //removing the action from the queue after proccesing it
+        if(!human) incomingActions.remove(); 
+        if(table.tokens.get(id).size() < env.config.featureSize && !human)  aiThread.notify(); // Notify the ai to continue generate keypresses   
+        
     }
 
     /**
@@ -186,20 +194,22 @@ public class Player implements Runnable {
      * @post - the player's score is updated in the ui.
      */
     public void point() {
-        score++;
         try {
+            //env.ui.setScore(id, ++score);
+            setClockFreezPoint();
             Thread.sleep(env.config.pointFreezeMillis);
         } catch (InterruptedException ignored) {} 
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
-        env.ui.setScore(id, ++score);
         point = false;
     }
 
     /**
      * Penalize a player and perform other related actions.
      */
-    public void penalty() {
-         try {
+    public synchronized void penalty() {
+         try { 
+            //env.ui.setFreeze(id,env.config.penaltyFreezeMillis);
+            setClockFreezPenalty();
             Thread.sleep(env.config.penaltyFreezeMillis);
         } catch (InterruptedException ignored) {} 
         penalty = false;
@@ -219,5 +229,20 @@ public class Player implements Runnable {
     public void setCheckSet(boolean result) {
         if(result) point = true;
         else penalty = true;
+    }
+    public void setClockFreezPenalty () {
+        long counter = env.config.penaltyFreezeMillis;
+        while(counter > 0) {
+            env.ui.setFreeze(id,counter);
+            counter --;
+        }
+    }
+    
+    public void setClockFreezPoint () {
+        long counter = env.config.pointFreezeMillis;
+        while(counter > 0) {
+            env.ui.setFreeze(id,counter);
+            counter --;
+        }
     }
 }

@@ -1,0 +1,34 @@
+[17:56:56.753] [INFO   ] thread bguspl.set.Main.main() starting.
+[17:56:56.761] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:56:56.761] [SEVERE ] configuration file was loaded from resources directory.
+[17:56:57.785] [INFO   ] thread dealer starting.
+[17:56:57.785] [INFO   ] thread dealer starting.
+[17:56:57.785] [INFO   ] thread Thread-1 starting.
+[17:56:57.785] [INFO   ] thread Thread-2 starting.
+[17:56:57.914] [SEVERE ] placing card 61 in slot 0
+[17:56:58.066] [SEVERE ] placing card 68 in slot 1
+[17:56:58.178] [SEVERE ] placing card 73 in slot 2
+[17:56:58.291] [SEVERE ] placing card 16 in slot 3
+[17:56:58.403] [SEVERE ] placing card 77 in slot 4
+[17:56:58.516] [SEVERE ] placing card 74 in slot 5
+[17:56:58.629] [SEVERE ] placing card 71 in slot 6
+[17:56:58.733] [SEVERE ] placing card 64 in slot 7
+[17:56:58.845] [SEVERE ] placing card 49 in slot 8
+[17:56:58.949] [SEVERE ] placing card 51 in slot 9
+[17:56:59.054] [SEVERE ] placing card 56 in slot 10
+[17:56:59.158] [SEVERE ] placing card 69 in slot 11
+[17:57:01.688] [SEVERE ] key 81 was pressed by player 1
+[17:57:06.372] [SEVERE ] key 81 was pressed by player 1
+[17:57:08.580] [SEVERE ] key 87 was pressed by player 1
+[17:57:10.082] [SEVERE ] key 80 was pressed by player 2
+[17:57:10.349] [SEVERE ] key 79 was pressed by player 2
+[17:57:10.592] [SEVERE ] key 73 was pressed by player 2
+[17:57:10.848] [SEVERE ] key 74 was pressed by player 2
+[17:57:11.066] [SEVERE ] key 75 was pressed by player 2
+[17:57:11.250] [SEVERE ] key 76 was pressed by player 2
+[17:57:11.435] [SEVERE ] key 76 was pressed by player 2
+[17:57:14.066] [SEVERE ] key 86 was pressed by player 1
+[17:57:15.475] [SEVERE ] key 70 was pressed by player 1
+[17:57:16.243] [SEVERE ] key 82 was pressed by player 1
+[17:57:16.671] [SEVERE ] key 69 was pressed by player 1
+[17:57:32.612] [SEVERE ] exit button pressed

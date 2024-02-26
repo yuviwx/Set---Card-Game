@@ -1,0 +1,36 @@
+[18:13:35.817] [INFO   ] thread bguspl.set.Main.main() starting.
+[18:13:35.821] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[18:13:35.824] [SEVERE ] configuration file was loaded from resources directory.
+[18:13:36.608] [INFO   ] thread dealer starting.
+[18:13:36.609] [INFO   ] thread dealer starting.
+[18:13:36.611] [INFO   ] thread Thread-1 starting.
+[18:13:36.611] [INFO   ] thread Thread-2 starting.
+[18:13:36.619] [SEVERE ] updating countdown to 60000
+[18:13:36.734] [SEVERE ] placing card 28 in slot 4
+[18:13:36.845] [SEVERE ] placing card 37 in slot 11
+[18:13:36.956] [SEVERE ] placing card 51 in slot 6
+[18:13:37.063] [SEVERE ] placing card 71 in slot 8
+[18:13:37.173] [SEVERE ] placing card 50 in slot 3
+[18:13:37.282] [SEVERE ] placing card 72 in slot 2
+[18:13:37.392] [SEVERE ] placing card 52 in slot 0
+[18:13:37.503] [SEVERE ] placing card 75 in slot 10
+[18:13:37.613] [SEVERE ] placing card 46 in slot 7
+[18:13:37.723] [SEVERE ] placing card 69 in slot 9
+[18:13:37.831] [SEVERE ] placing card 22 in slot 1
+[18:13:37.942] [SEVERE ] placing card 77 in slot 5
+[18:13:38.955] [SEVERE ] updating countdown to 59988
+[18:13:39.970] [SEVERE ] updating countdown to 58973
+[18:13:40.983] [SEVERE ] updating countdown to 57960
+[18:13:41.686] [SEVERE ] key 80 was pressed by player 2
+[18:13:41.687] [SEVERE ] player 2 placing token on slot 3
+[18:13:41.915] [SEVERE ] key 79 was pressed by player 2
+[18:13:41.916] [SEVERE ] player 2 placing token on slot 2
+[18:13:41.990] [SEVERE ] updating countdown to 56953
+[18:13:42.216] [SEVERE ] key 73 was pressed by player 2
+[18:13:42.217] [SEVERE ] player 2 placing token on slot 1
+[18:13:42.998] [SEVERE ] updating countdown to 55945
+[18:13:42.999] [SEVERE ] setting player 2 freeze to 3000
+[18:13:43.007] [INFO   ] thread dealer terminated.
+[18:13:48.012] [SEVERE ] thanks for playing... it was fun!
+[18:13:48.012] [INFO   ] thread bguspl.set.Main.main() terminated.
+[18:13:48.013] [SEVERE ] disposing of user interface elements

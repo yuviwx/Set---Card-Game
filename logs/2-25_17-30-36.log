@@ -1,0 +1,35 @@
+[17:30:36.364] [INFO   ] thread bguspl.set.Main.main() starting.
+[17:30:36.364] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:30:36.364] [SEVERE ] configuration file was loaded from resources directory.
+[17:30:36.909] [INFO   ] thread dealer starting.
+[17:30:36.909] [INFO   ] thread dealer starting.
+[17:30:36.922] [INFO   ] thread Thread-1 starting.
+[17:30:36.922] [INFO   ] thread Thread-2 starting.
+[17:30:36.934] [SEVERE ] updating countdown to 60000
+[17:30:37.039] [SEVERE ] placing card 36 in slot 6
+[17:30:37.157] [SEVERE ] placing card 30 in slot 11
+[17:30:37.259] [SEVERE ] placing card 79 in slot 8
+[17:30:37.361] [SEVERE ] placing card 4 in slot 4
+[17:30:37.462] [SEVERE ] placing card 3 in slot 2
+[17:30:37.570] [SEVERE ] placing card 63 in slot 7
+[17:30:37.672] [SEVERE ] placing card 10 in slot 5
+[17:30:37.774] [SEVERE ] placing card 66 in slot 3
+[17:30:37.876] [SEVERE ] placing card 25 in slot 0
+[17:30:37.981] [SEVERE ] placing card 58 in slot 10
+[17:30:38.089] [SEVERE ] placing card 8 in slot 1
+[17:30:38.191] [SEVERE ] placing card 29 in slot 9
+[17:30:39.192] [SEVERE ] updating countdown to 59999
+[17:30:40.207] [SEVERE ] updating countdown to 58984
+[17:30:40.990] [SEVERE ] key 87 was pressed by player 1
+[17:30:40.998] [SEVERE ] player 1 placing token on slot 1
+[17:30:41.209] [SEVERE ] updating countdown to 57982
+[17:30:41.218] [SEVERE ] key 81 was pressed by player 1
+[17:30:41.219] [SEVERE ] player 1 placing token on slot 0
+[17:30:41.464] [SEVERE ] key 65 was pressed by player 1
+[17:30:41.466] [SEVERE ] player 1 placing token on slot 4
+[17:30:42.210] [SEVERE ] updating countdown to 56981
+[17:30:42.212] [SEVERE ] setting player 1 freeze to 3000
+[17:30:45.222] [INFO   ] thread dealer terminated.
+[17:30:50.226] [SEVERE ] thanks for playing... it was fun!
+[17:30:50.226] [INFO   ] thread bguspl.set.Main.main() terminated.
+[17:30:50.226] [SEVERE ] disposing of user interface elements

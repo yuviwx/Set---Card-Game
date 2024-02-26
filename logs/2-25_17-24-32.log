@@ -1,0 +1,39 @@
+[17:24:32.322] [INFO   ] thread bguspl.set.Main.main() starting.
+[17:24:32.338] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:24:32.338] [SEVERE ] configuration file was loaded from resources directory.
+[17:24:32.965] [INFO   ] thread dealer starting.
+[17:24:32.971] [INFO   ] thread dealer starting.
+[17:24:32.971] [INFO   ] thread Thread-1 starting.
+[17:24:32.971] [INFO   ] thread Thread-2 starting.
+[17:24:32.980] [SEVERE ] updating countdown to 60000
+[17:24:33.091] [SEVERE ] placing card 6 in slot 3
+[17:24:33.192] [SEVERE ] placing card 13 in slot 5
+[17:24:33.296] [SEVERE ] placing card 16 in slot 0
+[17:24:33.402] [SEVERE ] placing card 4 in slot 8
+[17:24:33.514] [SEVERE ] placing card 24 in slot 4
+[17:24:33.633] [SEVERE ] placing card 59 in slot 9
+[17:24:33.734] [SEVERE ] placing card 27 in slot 1
+[17:24:33.859] [SEVERE ] placing card 73 in slot 11
+[17:24:33.969] [SEVERE ] placing card 49 in slot 2
+[17:24:34.079] [SEVERE ] placing card 5 in slot 7
+[17:24:34.189] [SEVERE ] placing card 0 in slot 10
+[17:24:34.293] [SEVERE ] placing card 69 in slot 6
+[17:24:35.301] [SEVERE ] updating countdown to 59992
+[17:24:36.303] [SEVERE ] updating countdown to 58990
+[17:24:37.310] [SEVERE ] updating countdown to 57983
+[17:24:38.319] [SEVERE ] updating countdown to 56974
+[17:24:39.321] [SEVERE ] updating countdown to 55972
+[17:24:40.140] [SEVERE ] key 88 was pressed by player 1
+[17:24:40.140] [SEVERE ] player 1 placing token on slot 9
+[17:24:40.323] [SEVERE ] updating countdown to 54970
+[17:24:40.411] [SEVERE ] key 68 was pressed by player 1
+[17:24:40.412] [SEVERE ] player 1 placing token on slot 6
+[17:24:41.336] [SEVERE ] updating countdown to 53957
+[17:24:41.798] [SEVERE ] key 86 was pressed by player 1
+[17:24:41.798] [SEVERE ] player 1 placing token on slot 11
+[17:24:42.337] [SEVERE ] updating countdown to 52956
+[17:24:42.339] [SEVERE ] setting player 1 score to 2
+[17:24:42.452] [INFO   ] thread dealer terminated.
+[17:24:47.461] [SEVERE ] thanks for playing... it was fun!
+[17:24:47.461] [INFO   ] thread bguspl.set.Main.main() terminated.
+[17:24:47.461] [SEVERE ] disposing of user interface elements

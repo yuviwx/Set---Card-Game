@@ -55,7 +55,12 @@ public class Table {
         this.slotToCard = slotToCard;
         this.cardToSlot = cardToSlot;
         this.tokens = new Vector<Vector<Integer>>(env.config.players);
+        initializeTokens();
         this.waitingForDealer = new ArrayBlockingQueue<Integer>(env.config.players);
+    }
+
+    private void initializeTokens (){
+        for (int i =0; i< env.config.players; i++)tokens.add(new Vector<Integer>(env.config.featureSize));  
     }
 
     /**
@@ -127,12 +132,12 @@ public class Table {
             Thread.sleep(env.config.tableDelayMillis);
         } catch (InterruptedException ignored) {}
         if(slotToCard[slot] != null){
+            for(int i =0; i<env.config.players; i++) removeToken(i, slot);
             int card = slotToCard[slot];
             cardToSlot[card] = null;
             slotToCard[slot] = null;
-            env.ui.removeCard(slot);
             env.ui.removeTokens(slot);
-            for(int i =0; i<env.config.players; i++) removeToken(i, slot);
+            env.ui.removeCard(slot);
         }
         else {
             System.out.println("the slot is already empty you idiot");
@@ -148,13 +153,13 @@ public class Table {
      * @POST: tokens.get(player).contains(slotToCard[slot]);
      */
     public synchronized void placeToken(int player, int slot) {
-            tokens.get(player).add(slotToCard[slot]);
+            tokens.get(player).add(slot);
+            System.out.println(tokens.get(player).toString());
             env.ui.placeToken(player, slot);
-            if(tokens.get(player).size() == env.config.featureCount) {
+            if(tokens.get(player).size() == env.config.featureSize) {
                 waitingForDealer.add(player);
-                waitingForDealer.notify();
+                //waitingForDealer.notify();
             } 
-
     }
 
     /**
@@ -166,17 +171,19 @@ public class Table {
      * @return - true iff a token was successfully removed.
      */
     public synchronized boolean removeToken(int player, int slot) {
-        if(tokens.get(player).contains(slotToCard[slot])) {
-            tokens.get(player).remove(slotToCard[slot]);
+        if(tokens.get(player).contains(slot)) {
+            tokens.get(player).remove((Integer)slot);
+            System.out.println(tokens.get(player).toString());
             env.ui.removeToken(player, slot);
             return true;
         }
-        else {
-            return false;
-        }
+        return false;
+        
     }
 
     public boolean isPlaced(int player, int slot){
-        return tokens.get(player).contains(slotToCard[slot]);
+        return tokens.get(player).contains(slot);
     }
+
+
 }

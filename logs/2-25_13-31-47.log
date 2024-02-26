@@ -1,0 +1,21 @@
+[13:31:47.671] [INFO   ] thread bguspl.set.Main.main() starting.
+[13:31:47.679] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[13:31:47.687] [SEVERE ] configuration file was loaded from resources directory.
+[13:31:48.718] [INFO   ] thread dealer starting.
+[13:31:48.718] [INFO   ] thread dealer starting.
+[13:31:48.725] [INFO   ] thread Thread-1 starting.
+[13:31:48.725] [INFO   ] thread Thread-2 starting.
+[13:31:48.854] [SEVERE ] placing card 28 in slot 0
+[13:31:49.001] [SEVERE ] placing card 7 in slot 1
+[13:31:49.114] [SEVERE ] placing card 21 in slot 2
+[13:31:49.226] [SEVERE ] placing card 62 in slot 3
+[13:31:49.339] [SEVERE ] placing card 9 in slot 4
+[13:31:49.445] [SEVERE ] placing card 70 in slot 5
+[13:31:49.549] [SEVERE ] placing card 29 in slot 6
+[13:31:49.662] [SEVERE ] placing card 15 in slot 7
+[13:31:49.774] [SEVERE ] placing card 45 in slot 8
+[13:31:49.886] [SEVERE ] placing card 1 in slot 9
+[13:31:49.991] [SEVERE ] placing card 4 in slot 10
+[13:31:50.104] [SEVERE ] placing card 53 in slot 11
+[13:32:03.815] [SEVERE ] key 81 was pressed by player 1
+[13:32:03.815] [SEVERE ] player 1 placing token on slot 0

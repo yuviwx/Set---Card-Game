@@ -1,0 +1,71 @@
+[17:10:12.602] [INFO   ] thread bguspl.set.Main.main() starting.
+[17:10:12.606] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:10:12.607] [SEVERE ] configuration file was loaded from resources directory.
+[17:10:13.265] [INFO   ] thread dealer starting.
+[17:10:13.266] [INFO   ] thread dealer starting.
+[17:10:13.267] [INFO   ] thread Thread-1 starting.
+[17:10:13.267] [INFO   ] thread Thread-2 starting.
+[17:10:13.275] [SEVERE ] updating countdown to 10000
+[17:10:13.381] [SEVERE ] placing card 49 in slot 3
+[17:10:13.488] [SEVERE ] placing card 21 in slot 9
+[17:10:13.599] [SEVERE ] placing card 72 in slot 1
+[17:10:13.709] [SEVERE ] placing card 27 in slot 6
+[17:10:13.820] [SEVERE ] placing card 71 in slot 8
+[17:10:13.932] [SEVERE ] placing card 39 in slot 10
+[17:10:14.041] [SEVERE ] placing card 42 in slot 7
+[17:10:14.142] [SEVERE ] placing card 65 in slot 2
+[17:10:14.247] [SEVERE ] placing card 45 in slot 11
+[17:10:14.357] [SEVERE ] placing card 73 in slot 0
+[17:10:14.469] [SEVERE ] placing card 6 in slot 5
+[17:10:14.578] [SEVERE ] placing card 4 in slot 4
+[17:10:15.589] [SEVERE ] updating countdown to 9989
+[17:10:16.600] [SEVERE ] updating countdown to 8978
+[17:10:17.611] [SEVERE ] updating countdown to 7967
+[17:10:18.628] [SEVERE ] updating countdown to 6950
+[17:10:19.641] [SEVERE ] updating countdown to 5937
+[17:10:21.578] [SEVERE ] updating countdown to 4000
+[17:10:22.578] [SEVERE ] updating countdown to 3000
+[17:10:22.578] [SEVERE ] updating countdown to 3000
+[17:10:23.578] [SEVERE ] updating countdown to 2000
+[17:10:24.578] [SEVERE ] updating countdown to 1000
+[17:10:24.578] [SEVERE ] updating countdown to 1000
+[17:10:25.578] [SEVERE ] updating countdown to 10000
+[17:10:25.692] [SEVERE ] removing tokens from slot 3
+[17:10:25.692] [SEVERE ] removing card from slot 3
+[17:10:25.804] [SEVERE ] removing tokens from slot 9
+[17:10:25.804] [SEVERE ] removing card from slot 9
+[17:10:25.916] [SEVERE ] removing tokens from slot 1
+[17:10:25.916] [SEVERE ] removing card from slot 1
+[17:10:26.025] [SEVERE ] removing tokens from slot 6
+[17:10:26.025] [SEVERE ] removing card from slot 6
+[17:10:26.135] [SEVERE ] removing tokens from slot 8
+[17:10:26.135] [SEVERE ] removing card from slot 8
+[17:10:26.248] [SEVERE ] removing tokens from slot 10
+[17:10:26.248] [SEVERE ] removing card from slot 10
+[17:10:26.358] [SEVERE ] removing tokens from slot 7
+[17:10:26.358] [SEVERE ] removing card from slot 7
+[17:10:26.469] [SEVERE ] removing tokens from slot 2
+[17:10:26.469] [SEVERE ] removing card from slot 2
+[17:10:26.579] [SEVERE ] removing tokens from slot 11
+[17:10:26.579] [SEVERE ] removing card from slot 11
+[17:10:26.687] [SEVERE ] removing tokens from slot 0
+[17:10:26.687] [SEVERE ] removing card from slot 0
+[17:10:26.794] [SEVERE ] removing tokens from slot 5
+[17:10:26.794] [SEVERE ] removing card from slot 5
+[17:10:26.902] [SEVERE ] removing tokens from slot 4
+[17:10:26.902] [SEVERE ] removing card from slot 4
+[17:10:26.903] [SEVERE ] updating countdown to 10000
+[17:10:27.012] [SEVERE ] placing card 67 in slot 3
+[17:10:27.122] [SEVERE ] placing card 43 in slot 9
+[17:10:27.232] [SEVERE ] placing card 0 in slot 1
+[17:10:27.342] [SEVERE ] placing card 23 in slot 6
+[17:10:27.452] [SEVERE ] placing card 76 in slot 8
+[17:10:27.561] [SEVERE ] placing card 45 in slot 10
+[17:10:27.673] [SEVERE ] placing card 60 in slot 7
+[17:10:27.783] [SEVERE ] exit button pressed
+[17:10:27.785] [SEVERE ] placing card 27 in slot 2
+[17:10:27.896] [SEVERE ] placing card 14 in slot 11
+[17:10:28.007] [SEVERE ] placing card 7 in slot 0
+[17:10:28.117] [SEVERE ] placing card 41 in slot 5
+[17:10:28.228] [SEVERE ] placing card 16 in slot 4
+[17:10:29.242] [SEVERE ] updating countdown to 9986

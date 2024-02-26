@@ -1,0 +1,36 @@
+[17:35:23.152] [INFO   ] thread bguspl.set.Main.main() starting.
+[17:35:23.156] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:35:23.157] [SEVERE ] configuration file was loaded from resources directory.
+[17:35:23.904] [INFO   ] thread dealer starting.
+[17:35:23.905] [INFO   ] thread dealer starting.
+[17:35:23.906] [INFO   ] thread Thread-1 starting.
+[17:35:23.906] [INFO   ] thread Thread-2 starting.
+[17:35:23.921] [SEVERE ] updating countdown to 60000
+[17:35:24.032] [SEVERE ] placing card 40 in slot 3
+[17:35:24.133] [SEVERE ] placing card 73 in slot 4
+[17:35:24.239] [SEVERE ] placing card 52 in slot 9
+[17:35:24.349] [SEVERE ] placing card 33 in slot 0
+[17:35:24.461] [SEVERE ] placing card 78 in slot 11
+[17:35:24.570] [SEVERE ] placing card 0 in slot 5
+[17:35:24.682] [SEVERE ] placing card 53 in slot 7
+[17:35:24.793] [SEVERE ] placing card 76 in slot 8
+[17:35:24.903] [SEVERE ] placing card 15 in slot 1
+[17:35:25.012] [SEVERE ] placing card 70 in slot 10
+[17:35:25.124] [SEVERE ] placing card 34 in slot 2
+[17:35:25.236] [SEVERE ] placing card 9 in slot 6
+[17:35:26.242] [SEVERE ] updating countdown to 59994
+[17:35:27.252] [SEVERE ] updating countdown to 58984
+[17:35:28.255] [SEVERE ] updating countdown to 57981
+[17:35:29.257] [SEVERE ] updating countdown to 56979
+[17:35:29.569] [SEVERE ] key 81 was pressed by player 1
+[17:35:29.569] [SEVERE ] player 1 placing token on slot 0
+[17:35:29.788] [SEVERE ] key 87 was pressed by player 1
+[17:35:29.789] [SEVERE ] player 1 placing token on slot 1
+[17:35:30.031] [SEVERE ] key 69 was pressed by player 1
+[17:35:30.032] [SEVERE ] player 1 placing token on slot 2
+[17:35:30.259] [SEVERE ] updating countdown to 55977
+[17:35:30.261] [SEVERE ] setting player 1 freeze to 3000
+[17:35:33.270] [INFO   ] thread dealer terminated.
+[17:35:38.274] [SEVERE ] thanks for playing... it was fun!
+[17:35:38.275] [INFO   ] thread bguspl.set.Main.main() terminated.
+[17:35:38.275] [SEVERE ] disposing of user interface elements
