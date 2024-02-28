@@ -1,0 +1,48 @@
+[15:20:20.841] [INFO   ] thread bguspl.set.Main.main() starting.
+[15:20:20.841] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[15:20:20.841] [SEVERE ] configuration file was loaded from resources directory.
+[15:20:21.702] [INFO   ] thread dealer starting.
+[15:20:21.713] [INFO   ] thread dealer starting.
+[15:20:21.717] [INFO   ] thread Thread-1 starting.
+[15:20:21.718] [INFO   ] thread Thread-3 starting.
+[15:20:21.719] [INFO   ] thread Thread-2 starting.
+[15:20:21.721] [INFO   ] thread computer-2 starting.
+[15:20:21.721] [SEVERE ] updating countdown to 60000
+[15:20:21.746] [SEVERE ] player 3 placing token on slot 0
+[15:20:21.833] [SEVERE ] placing card 24 in slot 9
+[15:20:21.934] [SEVERE ] placing card 37 in slot 3
+[15:20:22.035] [SEVERE ] placing card 80 in slot 7
+[15:20:22.136] [SEVERE ] placing card 58 in slot 8
+[15:20:22.238] [SEVERE ] placing card 43 in slot 10
+[15:20:22.340] [SEVERE ] placing card 16 in slot 6
+[15:20:22.445] [SEVERE ] placing card 73 in slot 1
+[15:20:22.557] [SEVERE ] placing card 44 in slot 5
+[15:20:22.660] [SEVERE ] placing card 62 in slot 11
+[15:20:22.765] [SEVERE ] placing card 13 in slot 4
+[15:20:22.867] [SEVERE ] placing card 30 in slot 2
+[15:20:22.973] [SEVERE ] placing card 20 in slot 0
+[15:20:23.978] [SEVERE ] updating countdown to 59996
+[15:20:24.987] [SEVERE ] updating countdown to 58987
+[15:20:25.992] [SEVERE ] updating countdown to 57982
+[15:20:26.996] [SEVERE ] updating countdown to 56978
+[15:20:27.999] [SEVERE ] updating countdown to 55975
+[15:20:29.003] [SEVERE ] updating countdown to 54971
+[15:20:30.005] [SEVERE ] updating countdown to 53969
+[15:20:31.009] [SEVERE ] updating countdown to 52965
+[15:20:32.014] [SEVERE ] updating countdown to 51960
+[15:20:33.016] [SEVERE ] updating countdown to 50958
+[15:20:34.023] [SEVERE ] updating countdown to 49951
+[15:20:35.025] [SEVERE ] updating countdown to 48949
+[15:20:36.026] [SEVERE ] updating countdown to 47948
+[15:20:37.030] [SEVERE ] updating countdown to 46944
+[15:20:38.038] [SEVERE ] updating countdown to 45936
+[15:20:39.043] [SEVERE ] updating countdown to 44931
+[15:20:40.048] [SEVERE ] updating countdown to 43926
+[15:20:41.049] [SEVERE ] updating countdown to 42925
+[15:20:42.056] [SEVERE ] updating countdown to 41918
+[15:20:43.059] [SEVERE ] updating countdown to 40915
+[15:20:44.061] [SEVERE ] updating countdown to 39913
+[15:20:45.069] [SEVERE ] updating countdown to 38905
+[15:20:46.079] [SEVERE ] updating countdown to 37895
+[15:20:47.084] [SEVERE ] updating countdown to 36890
+[15:20:48.088] [SEVERE ] updating countdown to 35886

@@ -1,0 +1,46 @@
+[14:30:12.963] [INFO   ] thread bguspl.set.Main.main() starting.
+[14:30:12.963] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[14:30:12.963] [SEVERE ] configuration file was loaded from resources directory.
+[14:30:13.982] [INFO   ] thread dealer starting.
+[14:30:13.985] [INFO   ] thread dealer starting.
+[14:30:13.985] [INFO   ] thread Thread-1 starting.
+[14:30:13.985] [INFO   ] thread Thread-2 starting.
+[14:30:13.985] [INFO   ] thread Thread-3 starting.
+[14:30:13.985] [INFO   ] thread Thread-4 starting.
+[14:30:13.993] [INFO   ] thread computer-2 starting.
+[14:30:13.994] [INFO   ] thread computer-3 starting.
+[14:30:13.998] [SEVERE ] player 3 placing token on slot 0
+[14:30:14.001] [SEVERE ] updating countdown to 60000
+[14:30:14.002] [SEVERE ] player 4 placing token on slot 0
+[14:30:14.124] [SEVERE ] placing card 20 in slot 0
+[14:30:14.262] [SEVERE ] placing card 1 in slot 7
+[14:30:14.365] [SEVERE ] placing card 18 in slot 2
+[14:30:14.467] [SEVERE ] placing card 80 in slot 3
+[14:30:14.568] [SEVERE ] placing card 66 in slot 11
+[14:30:14.670] [SEVERE ] placing card 53 in slot 9
+[14:30:14.772] [SEVERE ] placing card 46 in slot 5
+[14:30:14.879] [SEVERE ] placing card 65 in slot 8
+[14:30:14.994] [SEVERE ] placing card 49 in slot 4
+[14:30:15.105] [SEVERE ] placing card 13 in slot 6
+[14:30:15.220] [SEVERE ] placing card 40 in slot 1
+[14:30:15.335] [SEVERE ] placing card 36 in slot 10
+[14:30:16.337] [SEVERE ] updating countdown to 59998
+[14:30:17.338] [SEVERE ] updating countdown to 58997
+[14:30:18.344] [SEVERE ] updating countdown to 57991
+[14:30:19.350] [SEVERE ] updating countdown to 56985
+[14:30:20.353] [SEVERE ] updating countdown to 55982
+[14:30:21.355] [SEVERE ] updating countdown to 54980
+[14:30:22.360] [SEVERE ] updating countdown to 53975
+[14:30:23.361] [SEVERE ] updating countdown to 52974
+[14:30:24.365] [SEVERE ] updating countdown to 51971
+[14:30:25.368] [SEVERE ] updating countdown to 50967
+[14:30:26.370] [SEVERE ] updating countdown to 49965
+[14:30:27.371] [SEVERE ] updating countdown to 48964
+[14:30:28.372] [SEVERE ] updating countdown to 47963
+[14:30:29.374] [SEVERE ] updating countdown to 46961
+[14:30:30.382] [SEVERE ] updating countdown to 45953
+[14:30:31.383] [SEVERE ] updating countdown to 44952
+[14:30:32.386] [SEVERE ] updating countdown to 43949
+[14:30:33.388] [SEVERE ] updating countdown to 42947
+[14:30:34.389] [SEVERE ] updating countdown to 41946
+[14:30:35.391] [SEVERE ] updating countdown to 40944

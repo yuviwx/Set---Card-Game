@@ -47,6 +47,7 @@ public class Dealer implements Runnable {
      * Random field to place the cards
     */
     private final List<Integer> placeOrder;
+    boolean removedAllCards;
 
     public Dealer(Env env, Table table, Player[] players) {
         this.env = env;
@@ -56,6 +57,7 @@ public class Dealer implements Runnable {
         Collections.shuffle(deck);
         placeOrder = IntStream.range(0, env.config.rows * env.config.columns).boxed().collect(Collectors.toList());
         Collections.shuffle(placeOrder);
+        removedAllCards =false;
        
     }
 
@@ -121,32 +123,36 @@ public class Dealer implements Runnable {
     private void removeCardsFromTable() {
         while(!table.waitingForDealer.isEmpty()){
             int playerId = table.waitingForDealer.remove();
-            int[] playerTokens = vectorToArray(table.tokens.get(playerId));
+            // Saves the slots on which the player put token
+            int[] playerTokens = vectorToArray(table.tokens.get(playerId)); 
+            // Saves the cards on which the player put token on
             int[] playerCards = new int[env.config.featureSize];
-            for(int i=0; i<playerCards.length; i++) playerCards[i] = table.slotToCard[playerTokens[i]];
+            // Inserting Cards to cards array 
+            for(int i=0; i<playerCards.length; i++) playerCards[i] = table.slotToCard[playerTokens[i]]; 
+
+                synchronized(table.tokens.get(playerId)){
+                    // Check if set and update player           
+                    boolean result = (env.util.testSet(playerCards)) ? true : false;
+                    players[playerId].setCheckSet(result);
+                    // Update board - true => remove card : false => remove tokens;            
+                    for(int token : playerTokens){
+                        if(result) table.removeCard(token);
+                        else table.removeToken(playerId, token);
+                    }
+                    
+                    // Notify the player
+                    table.tokens.get(playerId).notify();
+
+                    // Update waitingForDealer - if a card with your token was removed, you're no longer waiting for response
+                    for(int id : table.waitingForDealer) {
+                        if(table.tokens.get(id).size() < env.config.featureSize) {
+                            table.waitingForDealer.remove(id);
+                            table.tokens.get(id).notify();
+                        }
+                    }                                  
+                }
             
-            synchronized(table.tokens.get(playerId)){
-            // Check if set and update player           
-            boolean result = (env.util.testSet(playerCards)) ? true : false;
-            players[playerId].setCheckSet(result);
-            // Update board - true => remove card : false => remove tokens;            
-            for(int token : playerTokens){
-                System.out.println("token:" + token);
-                if(result) table.removeCard(token);
-                else table.removeToken(playerId, token);
-            }
-
-            // Notify the player
-            table.tokens.get(playerId).notify();
-
-            // Update waitingForDealer - if a card with your token was removed, you're no longer waiting for response
-            for(int id : table.waitingForDealer)
-                if(table.tokens.get(id).size() < env.config.featureSize) {
-                    table.waitingForDealer.remove(id);
-                    table.tokens.get(id).notify();
-                }                                  
         }
-    }
     }
 
     /**
@@ -155,7 +161,11 @@ public class Dealer implements Runnable {
      */
     private void placeCardsOnTable() {
         //for each slot checks if its null and if it is, adds a new card from the deck
-        for(int i =0; i<placeOrder.size(); i++) if(table.slotToCard[placeOrder.get(i)]==null) table.placeCard(deck.remove(0),placeOrder.get(i));     
+        for(int i =0; i<placeOrder.size(); i++) {
+         if(table.slotToCard[placeOrder.get(i)]==null) table.placeCard(deck.remove(0),placeOrder.get(i));
+        }
+
+          
     }
 
     /**
@@ -195,13 +205,24 @@ public class Dealer implements Runnable {
      * @POST: for 0 < i < 11, SlotToCard[i] == null;
      */
     private void removeAllCardsFromTable() {
-       for(int i=0; i <placeOrder.size(); i++)  {
-        deck.add(table.slotToCard[placeOrder.get(i)]);
-        table.removeCard(placeOrder.get(i));
+        
+        for(Player p : players) p.setRemoveAllCardFromTable(true);    
+        for(int i=0; i <placeOrder.size(); i++)  {
+            deck.add(table.slotToCard[placeOrder.get(i)]);
+            table.removeCard(placeOrder.get(i));
         }
         Collections.shuffle(deck);
-    }
 
+        // if removed all cards, changes flag for all plyers and notiys each one 
+            for(Player p : players) {
+                p.setRemoveAllCardFromTable(false); 
+                synchronized(table.tokens.get(p.id)) {
+                    table.tokens.get(p.id).notify();
+                }
+            }
+          
+        }
+    
     /**
      * Check who is/are the winner/s and displays them.
      */

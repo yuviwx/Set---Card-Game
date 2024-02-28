@@ -1,0 +1,37 @@
+[14:49:49.667] [INFO   ] thread bguspl.set.Main.main() starting.
+[14:49:49.671] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[14:49:49.672] [SEVERE ] configuration file was loaded from resources directory.
+[14:49:50.587] [INFO   ] thread dealer starting.
+[14:49:50.588] [INFO   ] thread dealer starting.
+[14:49:50.590] [INFO   ] thread Thread-1 starting.
+[14:49:50.590] [INFO   ] thread Thread-2 starting.
+[14:49:50.591] [INFO   ] thread Thread-3 starting.
+[14:49:50.595] [INFO   ] thread computer-2 starting.
+[14:49:50.597] [SEVERE ] updating countdown to 60000
+[14:49:50.701] [SEVERE ] placing card 51 in slot 6
+[14:49:50.828] [SEVERE ] placing card 15 in slot 11
+[14:49:50.937] [SEVERE ] placing card 74 in slot 3
+[14:49:51.048] [SEVERE ] placing card 40 in slot 10
+[14:49:51.158] [SEVERE ] placing card 60 in slot 1
+[14:49:51.269] [SEVERE ] placing card 32 in slot 7
+[14:49:51.380] [SEVERE ] placing card 36 in slot 0
+[14:49:51.490] [SEVERE ] placing card 80 in slot 9
+[14:49:51.600] [SEVERE ] placing card 19 in slot 8
+[14:49:51.711] [SEVERE ] placing card 49 in slot 2
+[14:49:51.820] [SEVERE ] placing card 69 in slot 4
+[14:49:51.929] [SEVERE ] placing card 52 in slot 5
+[14:49:52.939] [SEVERE ] updating countdown to 59990
+[14:49:53.948] [SEVERE ] updating countdown to 58981
+[14:49:54.960] [SEVERE ] updating countdown to 57969
+[14:49:55.970] [SEVERE ] updating countdown to 56959
+[14:49:56.982] [SEVERE ] updating countdown to 55947
+[14:49:57.997] [SEVERE ] updating countdown to 54932
+[14:49:59.010] [SEVERE ] updating countdown to 53919
+[14:50:00.023] [SEVERE ] updating countdown to 52906
+[14:50:01.025] [SEVERE ] updating countdown to 51904
+[14:50:02.027] [SEVERE ] updating countdown to 50902
+[14:50:03.035] [SEVERE ] updating countdown to 49894
+[14:50:04.046] [SEVERE ] updating countdown to 48883
+[14:50:05.055] [SEVERE ] updating countdown to 47874
+[14:50:06.064] [SEVERE ] updating countdown to 46865
+[14:50:07.070] [SEVERE ] updating countdown to 45859

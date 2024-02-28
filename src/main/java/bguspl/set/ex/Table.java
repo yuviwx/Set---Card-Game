@@ -49,6 +49,8 @@ public class Table {
      * @param cardToSlot - mapping between a card and the slot it is in (null if none).
      */
 
+    Object lock_null_slot;
+
     public Table(Env env, Integer[] slotToCard, Integer[] cardToSlot) {
 
         this.env = env;
@@ -57,6 +59,7 @@ public class Table {
         this.tokens = new Vector<Vector<Integer>>(env.config.players);
         initializeTokens();
         this.waitingForDealer = new ArrayBlockingQueue<Integer>(env.config.players);
+        lock_null_slot = new Object();
     }
 
     private void initializeTokens (){
@@ -108,17 +111,14 @@ public class Table {
      * @post - the card placed is on the table, in the assigned slot.
      */
     public void placeCard(int card, int slot) {
-        try {
-            Thread.sleep(env.config.tableDelayMillis);
-        } catch (InterruptedException ignored) {}
-        if(slotToCard[slot] == null){
-            cardToSlot[card] = slot;
-            slotToCard[slot] = card;
-            env.ui.placeCard(card, slot);
-        }
-        else {
-            System.out.println("This slot is already occupied");
-        }
+            try {
+                Thread.sleep(env.config.tableDelayMillis);
+            } catch (InterruptedException ignored) {}
+            if(slotToCard[slot] == null){
+                cardToSlot[card] = slot;
+                slotToCard[slot] = card;
+                env.ui.placeCard(card, slot);
+            }
     }
 
     /**
@@ -128,20 +128,18 @@ public class Table {
      * @POST: cardToSlot[card] == slotToCard[slot] == null;
      */
     public void removeCard(int slot) {
-        try {
-            Thread.sleep(env.config.tableDelayMillis);
-        } catch (InterruptedException ignored) {}
-        if(slotToCard[slot] != null){
-            for(int i =0; i<env.config.players; i++) removeToken(i, slot);
-            int card = slotToCard[slot];
-            cardToSlot[card] = null;
-            slotToCard[slot] = null;
-            env.ui.removeTokens(slot);
-            env.ui.removeCard(slot);
-        }
-        else {
-            System.out.println("the slot is already empty you idiot");
-        }
+            try {
+                Thread.sleep(env.config.tableDelayMillis);
+            } catch (InterruptedException ignored) {}
+            if(slotToCard[slot] != null){
+                for(int i =0; i<env.config.players; i++) removeToken(i, slot);
+                int card = slotToCard[slot];
+                cardToSlot[card] = null;
+                slotToCard[slot] = null;
+                env.ui.removeTokens(slot);
+                env.ui.removeCard(slot);
+            }
+        
     }
     
 
@@ -153,13 +151,15 @@ public class Table {
      * @POST: tokens.get(player).contains(slotToCard[slot]);
      */
     public synchronized void placeToken(int player, int slot) {
+        if(slotToCard[slot] != null) {
             tokens.get(player).add(slot);
             System.out.println(tokens.get(player).toString());
             env.ui.placeToken(player, slot);
             if(tokens.get(player).size() == env.config.featureSize) {
                 waitingForDealer.add(player);
                 //waitingForDealer.notify();
-            } 
+            }
+        }
     }
 
     /**

@@ -1,0 +1,34 @@
+[14:44:29.830] [INFO   ] thread bguspl.set.Main.main() starting.
+[14:44:29.845] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[14:44:29.845] [SEVERE ] configuration file was loaded from resources directory.
+[14:44:30.768] [INFO   ] thread dealer starting.
+[14:44:30.768] [INFO   ] thread dealer starting.
+[14:44:30.776] [INFO   ] thread Thread-1 starting.
+[14:44:30.776] [INFO   ] thread Thread-2 starting.
+[14:44:30.776] [INFO   ] thread Thread-3 starting.
+[14:44:30.779] [INFO   ] thread computer-2 starting.
+[14:44:30.784] [SEVERE ] updating countdown to 60000
+[14:44:30.906] [SEVERE ] placing card 18 in slot 0
+[14:44:31.029] [SEVERE ] placing card 30 in slot 5
+[14:44:31.132] [SEVERE ] placing card 23 in slot 2
+[14:44:31.243] [SEVERE ] placing card 71 in slot 3
+[14:44:31.354] [SEVERE ] placing card 29 in slot 6
+[14:44:31.466] [SEVERE ] placing card 77 in slot 7
+[14:44:31.577] [SEVERE ] placing card 64 in slot 9
+[14:44:31.685] [SEVERE ] placing card 41 in slot 10
+[14:44:31.795] [SEVERE ] placing card 34 in slot 4
+[14:44:31.905] [SEVERE ] placing card 38 in slot 11
+[14:44:32.016] [SEVERE ] placing card 6 in slot 1
+[14:44:32.126] [SEVERE ] placing card 22 in slot 8
+[14:44:33.132] [SEVERE ] updating countdown to 59994
+[14:44:34.137] [SEVERE ] updating countdown to 58989
+[14:44:35.142] [SEVERE ] updating countdown to 57984
+[14:44:36.143] [SEVERE ] updating countdown to 56983
+[14:44:37.154] [SEVERE ] updating countdown to 55972
+[14:44:38.157] [SEVERE ] updating countdown to 54969
+[14:44:39.162] [SEVERE ] updating countdown to 53964
+[14:44:40.173] [SEVERE ] updating countdown to 52953
+[14:44:41.176] [SEVERE ] updating countdown to 51950
+[14:44:42.192] [SEVERE ] updating countdown to 50934
+[14:44:43.199] [SEVERE ] updating countdown to 49927
+[14:44:44.213] [SEVERE ] updating countdown to 48913

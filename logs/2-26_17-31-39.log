@@ -1,0 +1,1595 @@
+[17:31:39.410] [INFO   ] thread bguspl.set.Main.main() starting.
+[17:31:39.410] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[17:31:39.426] [SEVERE ] configuration file was loaded from resources directory.
+[17:31:40.069] [INFO   ] thread dealer starting.
+[17:31:40.070] [INFO   ] thread dealer starting.
+[17:31:40.072] [INFO   ] thread Thread-1 starting.
+[17:31:40.072] [INFO   ] thread Thread-2 starting.
+[17:31:40.075] [INFO   ] thread computer-1 starting.
+[17:31:40.101] [SEVERE ] updating countdown to 20000
+[17:31:40.211] [SEVERE ] placing card 15 in slot 4
+[17:31:40.321] [SEVERE ] placing card 32 in slot 0
+[17:31:40.427] [SEVERE ] placing card 47 in slot 6
+[17:31:40.533] [SEVERE ] placing card 75 in slot 1
+[17:31:40.634] [SEVERE ] placing card 66 in slot 11
+[17:31:40.742] [SEVERE ] placing card 4 in slot 3
+[17:31:40.844] [SEVERE ] placing card 70 in slot 10
+[17:31:40.948] [SEVERE ] placing card 18 in slot 8
+[17:31:41.049] [SEVERE ] placing card 22 in slot 2
+[17:31:41.081] [SEVERE ] player 2 placing token on slot 0
+[17:31:41.153] [SEVERE ] placing card 49 in slot 9
+[17:31:41.255] [SEVERE ] placing card 29 in slot 7
+[17:31:41.365] [SEVERE ] placing card 64 in slot 5
+[17:31:42.086] [SEVERE ] player 2 placing token on slot 10
+[17:31:42.380] [SEVERE ] updating countdown to 19985
+[17:31:42.647] [SEVERE ] key 87 was pressed by player 1
+[17:31:42.647] [SEVERE ] player 1 placing token on slot 1
+[17:31:42.895] [SEVERE ] key 69 was pressed by player 1
+[17:31:42.909] [SEVERE ] player 1 placing token on slot 2
+[17:31:43.092] [SEVERE ] player 2 placing token on slot 11
+[17:31:43.235] [SEVERE ] key 65 was pressed by player 1
+[17:31:43.238] [SEVERE ] player 1 placing token on slot 4
+[17:31:43.395] [SEVERE ] updating countdown to 18970
+[17:31:43.395] [SEVERE ] removing player 2 token from slot 0
+[17:31:43.395] [SEVERE ] removing player 2 token from slot 10
+[17:31:43.395] [SEVERE ] removing player 2 token from slot 11
+[17:31:43.395] [SEVERE ] setting player 2 freeze to 3000
+[17:31:43.395] [SEVERE ] removing player 1 token from slot 1
+[17:31:43.395] [SEVERE ] removing player 1 token from slot 2
+[17:31:43.395] [SEVERE ] removing player 1 token from slot 4
+[17:31:43.403] [SEVERE ] setting player 1 freeze to 3000
+[17:31:44.408] [SEVERE ] updating countdown to 17957
+[17:31:44.408] [SEVERE ] setting player 2 freeze to 2000
+[17:31:44.408] [SEVERE ] setting player 1 freeze to 2000
+[17:31:44.817] [SEVERE ] key 81 was pressed by player 1
+[17:31:45.053] [SEVERE ] key 87 was pressed by player 1
+[17:31:45.305] [SEVERE ] key 87 was pressed by player 1
+[17:31:45.415] [SEVERE ] updating countdown to 16950
+[17:31:45.415] [SEVERE ] setting player 1 freeze to 1000
+[17:31:45.415] [SEVERE ] setting player 2 freeze to 1000
+[17:31:45.540] [SEVERE ] key 69 was pressed by player 1
+[17:31:45.806] [SEVERE ] key 87 was pressed by player 1
+[17:31:45.995] [SEVERE ] key 87 was pressed by player 1
+[17:31:46.418] [SEVERE ] setting player 2 freeze to 0
+[17:31:46.418] [SEVERE ] setting player 1 freeze to 0
+[17:31:46.418] [SEVERE ] updating countdown to 15947
+[17:31:47.014] [SEVERE ] key 69 was pressed by player 1
+[17:31:47.014] [SEVERE ] player 1 placing token on slot 2
+[17:31:47.376] [SEVERE ] key 87 was pressed by player 1
+[17:31:47.376] [SEVERE ] player 1 placing token on slot 1
+[17:31:47.422] [SEVERE ] updating countdown to 14943
+[17:31:47.422] [SEVERE ] player 2 placing token on slot 11
+[17:31:47.697] [SEVERE ] key 81 was pressed by player 1
+[17:31:47.703] [SEVERE ] player 1 placing token on slot 0
+[17:31:48.081] [SEVERE ] key 81 was pressed by player 1
+[17:31:48.427] [SEVERE ] updating countdown to 13938
+[17:31:48.428] [SEVERE ] player 2 placing token on slot 4
+[17:31:48.429] [SEVERE ] removing player 1 token from slot 2
+[17:31:48.429] [SEVERE ] removing player 1 token from slot 1
+[17:31:48.429] [SEVERE ] removing player 1 token from slot 0
+[17:31:48.429] [SEVERE ] setting player 1 freeze to 3000
+[17:31:49.442] [SEVERE ] updating countdown to 12923
+[17:31:49.442] [SEVERE ] setting player 1 freeze to 2000
+[17:31:49.442] [SEVERE ] player 2 placing token on slot 5
+[17:31:50.457] [SEVERE ] setting player 1 freeze to 1000
+[17:31:50.457] [SEVERE ] updating countdown to 11908
+[17:31:50.457] [SEVERE ] removing player 2 token from slot 11
+[17:31:50.457] [SEVERE ] removing player 2 token from slot 4
+[17:31:50.457] [SEVERE ] removing player 2 token from slot 5
+[17:31:50.457] [SEVERE ] setting player 2 freeze to 3000
+[17:31:51.463] [SEVERE ] setting player 2 freeze to 2000
+[17:31:51.463] [SEVERE ] setting player 1 freeze to 0
+[17:31:51.463] [SEVERE ] updating countdown to 10902
+[17:31:52.469] [SEVERE ] setting player 2 freeze to 1000
+[17:31:52.469] [SEVERE ] updating countdown to 9896
+[17:31:52.987] [SEVERE ] key 65 was pressed by player 1
+[17:31:52.998] [SEVERE ] player 1 placing token on slot 4
+[17:31:53.097] [SEVERE ] key 81 was pressed by player 1
+[17:31:53.097] [SEVERE ] player 1 placing token on slot 0
+[17:31:53.186] [SEVERE ] key 83 was pressed by player 1
+[17:31:53.186] [SEVERE ] player 1 placing token on slot 5
+[17:31:53.275] [SEVERE ] key 87 was pressed by player 1
+[17:31:53.479] [SEVERE ] setting player 2 freeze to 0
+[17:31:53.479] [SEVERE ] updating countdown to 8886
+[17:31:53.479] [SEVERE ] removing player 1 token from slot 4
+[17:31:53.479] [SEVERE ] removing player 1 token from slot 0
+[17:31:53.479] [SEVERE ] removing player 1 token from slot 5
+[17:31:53.479] [SEVERE ] setting player 1 freeze to 3000
+[17:31:53.524] [SEVERE ] key 69 was pressed by player 1
+[17:31:54.490] [SEVERE ] updating countdown to 7875
+[17:31:54.490] [SEVERE ] setting player 1 freeze to 2000
+[17:31:54.490] [SEVERE ] player 2 placing token on slot 7
+[17:31:55.081] [SEVERE ] key 90 was pressed by player 1
+[17:31:55.502] [SEVERE ] updating countdown to 6863
+[17:31:55.502] [SEVERE ] setting player 1 freeze to 1000
+[17:31:55.502] [SEVERE ] player 2 placing token on slot 9
+[17:31:56.514] [SEVERE ] setting player 1 freeze to 0
+[17:31:56.514] [SEVERE ] updating countdown to 5851
+[17:31:56.514] [SEVERE ] player 2 placing token on slot 1
+[17:31:57.527] [SEVERE ] removing player 2 token from slot 7
+[17:31:57.527] [SEVERE ] removing player 2 token from slot 9
+[17:31:57.527] [SEVERE ] removing player 2 token from slot 1
+[17:31:57.527] [SEVERE ] setting player 2 freeze to 3000
+[17:31:57.589] [SEVERE ] key 81 was pressed by player 1
+[17:31:57.589] [SEVERE ] player 1 placing token on slot 0
+[17:31:58.533] [SEVERE ] setting player 2 freeze to 2000
+[17:31:58.533] [SEVERE ] key 81 was pressed by player 1
+[17:31:58.533] [SEVERE ] removing player 1 token from slot 0
+[17:31:58.646] [SEVERE ] key 87 was pressed by player 1
+[17:31:58.646] [SEVERE ] player 1 placing token on slot 1
+[17:31:58.710] [SEVERE ] key 69 was pressed by player 1
+[17:31:58.710] [SEVERE ] player 1 placing token on slot 2
+[17:31:58.860] [SEVERE ] key 81 was pressed by player 1
+[17:31:58.860] [SEVERE ] player 1 placing token on slot 0
+[17:31:58.860] [SEVERE ] removing player 1 token from slot 1
+[17:31:58.860] [SEVERE ] removing player 1 token from slot 2
+[17:31:58.860] [SEVERE ] removing player 1 token from slot 0
+[17:31:58.860] [SEVERE ] setting player 1 freeze to 3000
+[17:31:59.035] [SEVERE ] key 87 was pressed by player 1
+[17:31:59.176] [SEVERE ] key 81 was pressed by player 1
+[17:31:59.411] [SEVERE ] key 87 was pressed by player 1
+[17:31:59.505] [SEVERE ] key 69 was pressed by player 1
+[17:31:59.536] [SEVERE ] setting player 2 freeze to 1000
+[17:31:59.662] [SEVERE ] key 81 was pressed by player 1
+[17:31:59.867] [SEVERE ] setting player 1 freeze to 2000
+[17:32:00.541] [SEVERE ] setting player 2 freeze to 0
+[17:32:00.870] [SEVERE ] setting player 1 freeze to 1000
+[17:32:01.544] [SEVERE ] player 2 placing token on slot 5
+[17:32:01.877] [SEVERE ] setting player 1 freeze to 0
+[17:32:02.019] [SEVERE ] key 81 was pressed by player 1
+[17:32:02.031] [SEVERE ] player 1 placing token on slot 0
+[17:32:02.182] [SEVERE ] key 69 was pressed by player 1
+[17:32:02.187] [SEVERE ] player 1 placing token on slot 2
+[17:32:02.187] [SEVERE ] key 87 was pressed by player 1
+[17:32:02.187] [SEVERE ] player 1 placing token on slot 1
+[17:32:02.187] [SEVERE ] removing player 1 token from slot 0
+[17:32:02.198] [SEVERE ] removing player 1 token from slot 2
+[17:32:02.199] [SEVERE ] removing player 1 token from slot 1
+[17:32:02.199] [SEVERE ] setting player 1 freeze to 3000
+[17:32:02.369] [SEVERE ] updating countdown to 20000
+[17:32:02.480] [SEVERE ] removing tokens from slot 4
+[17:32:02.480] [SEVERE ] removing card from slot 4
+[17:32:02.590] [SEVERE ] removing tokens from slot 0
+[17:32:02.590] [SEVERE ] removing card from slot 0
+[17:32:02.691] [SEVERE ] removing tokens from slot 6
+[17:32:02.691] [SEVERE ] removing card from slot 6
+[17:32:02.793] [SEVERE ] removing tokens from slot 1
+[17:32:02.793] [SEVERE ] removing card from slot 1
+[17:32:02.821] [SEVERE ] key 81 was pressed by player 1
+[17:32:02.893] [SEVERE ] removing tokens from slot 11
+[17:32:02.893] [SEVERE ] removing card from slot 11
+[17:32:02.994] [SEVERE ] removing tokens from slot 3
+[17:32:02.994] [SEVERE ] removing card from slot 3
+[17:32:03.095] [SEVERE ] removing tokens from slot 10
+[17:32:03.095] [SEVERE ] removing card from slot 10
+[17:32:03.209] [SEVERE ] removing tokens from slot 8
+[17:32:03.209] [SEVERE ] removing card from slot 8
+[17:32:03.209] [SEVERE ] setting player 1 freeze to 2000
+[17:32:03.318] [SEVERE ] removing tokens from slot 2
+[17:32:03.318] [SEVERE ] removing card from slot 2
+[17:32:03.428] [SEVERE ] removing tokens from slot 9
+[17:32:03.428] [SEVERE ] removing card from slot 9
+[17:32:03.539] [SEVERE ] removing tokens from slot 7
+[17:32:03.539] [SEVERE ] removing card from slot 7
+[17:32:03.648] [SEVERE ] removing player 2 token from slot 5
+[17:32:03.648] [SEVERE ] removing tokens from slot 5
+[17:32:03.648] [SEVERE ] removing card from slot 5
+[17:32:03.648] [SEVERE ] key 87 was pressed by player 1
+[17:32:03.648] [SEVERE ] updating countdown to 20000
+[17:32:03.648] [SEVERE ] key 69 was pressed by player 1
+[17:32:03.648] [SEVERE ] key 81 was pressed by player 1
+[17:32:03.648] [SEVERE ] key 87 was pressed by player 1
+[17:32:03.648] [SEVERE ] key 69 was pressed by player 1
+[17:32:03.648] [SEVERE ] key 81 was pressed by player 1
+[17:32:03.648] [SEVERE ] key 87 was pressed by player 1
+[17:32:03.760] [SEVERE ] placing card 8 in slot 4
+[17:32:03.855] [SEVERE ] key 69 was pressed by player 1
+[17:32:03.870] [SEVERE ] placing card 24 in slot 0
+[17:32:03.964] [SEVERE ] key 81 was pressed by player 1
+[17:32:03.980] [SEVERE ] placing card 76 in slot 6
+[17:32:04.090] [SEVERE ] placing card 61 in slot 1
+[17:32:04.137] [SEVERE ] key 87 was pressed by player 1
+[17:32:04.200] [SEVERE ] placing card 62 in slot 11
+[17:32:04.215] [SEVERE ] setting player 1 freeze to 1000
+[17:32:04.215] [SEVERE ] key 69 was pressed by player 1
+[17:32:04.310] [SEVERE ] placing card 41 in slot 3
+[17:32:04.419] [SEVERE ] placing card 70 in slot 10
+[17:32:04.529] [SEVERE ] placing card 68 in slot 8
+[17:32:04.640] [SEVERE ] placing card 10 in slot 2
+[17:32:04.750] [SEVERE ] placing card 13 in slot 9
+[17:32:04.860] [SEVERE ] placing card 26 in slot 7
+[17:32:04.969] [SEVERE ] placing card 80 in slot 5
+[17:32:05.220] [SEVERE ] setting player 1 freeze to 0
+[17:32:05.661] [SEVERE ] player 2 placing token on slot 2
+[17:32:05.975] [SEVERE ] updating countdown to 19994
+[17:32:06.668] [SEVERE ] player 2 placing token on slot 4
+[17:32:06.976] [SEVERE ] updating countdown to 18993
+[17:32:07.682] [SEVERE ] removing player 2 token from slot 4
+[17:32:07.977] [SEVERE ] updating countdown to 17992
+[17:32:08.685] [SEVERE ] player 2 placing token on slot 6
+[17:32:08.979] [SEVERE ] updating countdown to 16990
+[17:32:09.686] [SEVERE ] player 2 placing token on slot 8
+[17:32:09.979] [SEVERE ] updating countdown to 15990
+[17:32:09.979] [SEVERE ] removing player 2 token from slot 2
+[17:32:09.979] [SEVERE ] removing player 2 token from slot 6
+[17:32:09.979] [SEVERE ] removing player 2 token from slot 8
+[17:32:09.979] [SEVERE ] setting player 2 freeze to 3000
+[17:32:10.991] [SEVERE ] setting player 2 freeze to 2000
+[17:32:10.991] [SEVERE ] updating countdown to 14978
+[17:32:11.996] [SEVERE ] updating countdown to 13973
+[17:32:11.996] [SEVERE ] setting player 2 freeze to 1000
+[17:32:13.002] [SEVERE ] updating countdown to 12967
+[17:32:13.002] [SEVERE ] setting player 2 freeze to 0
+[17:32:14.009] [SEVERE ] updating countdown to 11960
+[17:32:14.009] [SEVERE ] player 2 placing token on slot 1
+[17:32:14.800] [SEVERE ] key 81 was pressed by player 1
+[17:32:14.800] [SEVERE ] player 1 placing token on slot 0
+[17:32:14.984] [SEVERE ] key 87 was pressed by player 1
+[17:32:14.984] [SEVERE ] player 1 placing token on slot 1
+[17:32:15.020] [SEVERE ] updating countdown to 10949
+[17:32:15.020] [SEVERE ] player 2 placing token on slot 7
+[17:32:15.029] [SEVERE ] key 69 was pressed by player 1
+[17:32:15.030] [SEVERE ] player 1 placing token on slot 2
+[17:32:15.279] [SEVERE ] key 81 was pressed by player 1
+[17:32:15.350] [SEVERE ] key 87 was pressed by player 1
+[17:32:15.374] [SEVERE ] key 69 was pressed by player 1
+[17:32:15.562] [SEVERE ] key 81 was pressed by player 1
+[17:32:15.650] [SEVERE ] key 87 was pressed by player 1
+[17:32:15.675] [SEVERE ] key 69 was pressed by player 1
+[17:32:15.881] [SEVERE ] key 81 was pressed by player 1
+[17:32:15.952] [SEVERE ] key 87 was pressed by player 1
+[17:32:15.975] [SEVERE ] key 69 was pressed by player 1
+[17:32:16.022] [SEVERE ] updating countdown to 9947
+[17:32:16.023] [SEVERE ] player 2 placing token on slot 0
+[17:32:16.024] [SEVERE ] removing player 1 token from slot 0
+[17:32:16.024] [SEVERE ] removing player 1 token from slot 1
+[17:32:16.024] [SEVERE ] removing player 1 token from slot 2
+[17:32:16.024] [SEVERE ] setting player 1 freeze to 3000
+[17:32:16.024] [SEVERE ] removing player 2 token from slot 1
+[17:32:16.024] [SEVERE ] removing player 2 token from slot 7
+[17:32:16.024] [SEVERE ] removing player 2 token from slot 0
+[17:32:16.030] [SEVERE ] setting player 2 freeze to 3000
+[17:32:16.153] [SEVERE ] key 81 was pressed by player 1
+[17:32:16.245] [SEVERE ] key 87 was pressed by player 1
+[17:32:16.292] [SEVERE ] key 69 was pressed by player 1
+[17:32:16.465] [SEVERE ] key 81 was pressed by player 1
+[17:32:16.590] [SEVERE ] key 87 was pressed by player 1
+[17:32:16.622] [SEVERE ] key 69 was pressed by player 1
+[17:32:16.795] [SEVERE ] key 81 was pressed by player 1
+[17:32:16.935] [SEVERE ] key 87 was pressed by player 1
+[17:32:16.951] [SEVERE ] key 69 was pressed by player 1
+[17:32:17.030] [SEVERE ] setting player 1 freeze to 2000
+[17:32:17.030] [SEVERE ] updating countdown to 8939
+[17:32:17.045] [SEVERE ] setting player 2 freeze to 2000
+[17:32:17.139] [SEVERE ] key 81 was pressed by player 1
+[17:32:17.217] [SEVERE ] key 87 was pressed by player 1
+[17:32:17.296] [SEVERE ] key 69 was pressed by player 1
+[17:32:17.484] [SEVERE ] key 81 was pressed by player 1
+[17:32:17.594] [SEVERE ] key 87 was pressed by player 1
+[17:32:17.626] [SEVERE ] key 69 was pressed by player 1
+[17:32:17.813] [SEVERE ] key 81 was pressed by player 1
+[17:32:17.923] [SEVERE ] key 87 was pressed by player 1
+[17:32:17.939] [SEVERE ] key 69 was pressed by player 1
+[17:32:18.033] [SEVERE ] updating countdown to 7936
+[17:32:18.033] [SEVERE ] setting player 1 freeze to 1000
+[17:32:18.048] [SEVERE ] setting player 2 freeze to 1000
+[17:32:18.127] [SEVERE ] key 81 was pressed by player 1
+[17:32:18.221] [SEVERE ] key 87 was pressed by player 1
+[17:32:18.252] [SEVERE ] key 69 was pressed by player 1
+[17:32:18.505] [SEVERE ] key 81 was pressed by player 1
+[17:32:19.037] [SEVERE ] updating countdown to 6932
+[17:32:19.037] [SEVERE ] setting player 1 freeze to 0
+[17:32:19.053] [SEVERE ] setting player 2 freeze to 0
+[17:32:20.044] [SEVERE ] updating countdown to 5925
+[17:32:20.060] [SEVERE ] player 2 placing token on slot 0
+[17:32:21.066] [SEVERE ] player 2 placing token on slot 6
+[17:32:22.069] [SEVERE ] removing player 2 token from slot 0
+[17:32:23.071] [SEVERE ] removing player 2 token from slot 6
+[17:32:24.084] [SEVERE ] player 2 placing token on slot 8
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.969] [SEVERE ] updating countdown to 1000
+[17:32:24.981] [SEVERE ] updating countdown to 1000
+[17:32:25.091] [SEVERE ] player 2 placing token on slot 0
+[17:32:25.969] [SEVERE ] updating countdown to 20000
+[17:32:26.075] [SEVERE ] removing tokens from slot 4
+[17:32:26.075] [SEVERE ] removing card from slot 4
+[17:32:26.185] [SEVERE ] removing player 2 token from slot 0
+[17:32:26.186] [SEVERE ] removing tokens from slot 0
+[17:32:26.186] [SEVERE ] removing card from slot 0
+[17:32:26.287] [SEVERE ] removing tokens from slot 6
+[17:32:26.287] [SEVERE ] removing card from slot 6
+[17:32:26.388] [SEVERE ] removing tokens from slot 1
+[17:32:26.388] [SEVERE ] removing card from slot 1
+[17:32:26.489] [SEVERE ] removing tokens from slot 11
+[17:32:26.489] [SEVERE ] removing card from slot 11
+[17:32:26.590] [SEVERE ] removing tokens from slot 3
+[17:32:26.590] [SEVERE ] removing card from slot 3
+[17:32:26.690] [SEVERE ] removing tokens from slot 10
+[17:32:26.690] [SEVERE ] removing card from slot 10
+[17:32:26.804] [SEVERE ] removing player 2 token from slot 8
+[17:32:26.804] [SEVERE ] removing tokens from slot 8
+[17:32:26.804] [SEVERE ] removing card from slot 8
+[17:32:26.907] [SEVERE ] removing tokens from slot 2
+[17:32:26.907] [SEVERE ] removing card from slot 2
+[17:32:26.986] [SEVERE ] key 81 was pressed by player 1
+[17:32:27.017] [SEVERE ] removing tokens from slot 9
+[17:32:27.017] [SEVERE ] removing card from slot 9
+[17:32:27.127] [SEVERE ] removing tokens from slot 7
+[17:32:27.127] [SEVERE ] removing card from slot 7
+[17:32:27.237] [SEVERE ] removing tokens from slot 5
+[17:32:27.237] [SEVERE ] removing card from slot 5
+[17:32:27.237] [SEVERE ] updating countdown to 20000
+[17:32:27.348] [SEVERE ] placing card 48 in slot 4
+[17:32:27.458] [SEVERE ] placing card 8 in slot 0
+[17:32:27.568] [SEVERE ] placing card 2 in slot 6
+[17:32:27.679] [SEVERE ] placing card 31 in slot 1
+[17:32:27.789] [SEVERE ] placing card 71 in slot 11
+[17:32:27.899] [SEVERE ] placing card 79 in slot 3
+[17:32:28.009] [SEVERE ] placing card 7 in slot 10
+[17:32:28.119] [SEVERE ] placing card 42 in slot 8
+[17:32:28.229] [SEVERE ] placing card 19 in slot 2
+[17:32:28.244] [SEVERE ] player 2 placing token on slot 6
+[17:32:28.335] [SEVERE ] placing card 52 in slot 9
+[17:32:28.446] [SEVERE ] placing card 12 in slot 7
+[17:32:28.556] [SEVERE ] placing card 68 in slot 5
+[17:32:29.248] [SEVERE ] player 2 placing token on slot 5
+[17:32:29.571] [SEVERE ] updating countdown to 19985
+[17:32:30.263] [SEVERE ] player 2 placing token on slot 7
+[17:32:30.587] [SEVERE ] updating countdown to 18969
+[17:32:30.587] [SEVERE ] removing player 2 token from slot 6
+[17:32:30.587] [SEVERE ] removing player 2 token from slot 5
+[17:32:30.587] [SEVERE ] removing player 2 token from slot 7
+[17:32:30.587] [SEVERE ] setting player 2 freeze to 3000
+[17:32:31.598] [SEVERE ] updating countdown to 17958
+[17:32:31.598] [SEVERE ] setting player 2 freeze to 2000
+[17:32:32.605] [SEVERE ] updating countdown to 16951
+[17:32:32.605] [SEVERE ] setting player 2 freeze to 1000
+[17:32:33.611] [SEVERE ] updating countdown to 15945
+[17:32:33.611] [SEVERE ] setting player 2 freeze to 0
+[17:32:34.618] [SEVERE ] updating countdown to 14938
+[17:32:34.618] [SEVERE ] player 2 placing token on slot 5
+[17:32:35.628] [SEVERE ] updating countdown to 13928
+[17:32:35.628] [SEVERE ] player 2 placing token on slot 11
+[17:32:36.637] [SEVERE ] updating countdown to 12919
+[17:32:36.637] [SEVERE ] player 2 placing token on slot 3
+[17:32:37.651] [SEVERE ] updating countdown to 11905
+[17:32:37.651] [SEVERE ] removing player 2 token from slot 5
+[17:32:37.651] [SEVERE ] removing player 2 token from slot 11
+[17:32:37.651] [SEVERE ] removing player 2 token from slot 3
+[17:32:37.651] [SEVERE ] setting player 2 freeze to 3000
+[17:32:38.662] [SEVERE ] updating countdown to 10894
+[17:32:38.662] [SEVERE ] setting player 2 freeze to 2000
+[17:32:39.668] [SEVERE ] updating countdown to 9888
+[17:32:39.668] [SEVERE ] setting player 2 freeze to 1000
+[17:32:40.677] [SEVERE ] updating countdown to 8879
+[17:32:40.677] [SEVERE ] setting player 2 freeze to 0
+[17:32:41.687] [SEVERE ] updating countdown to 7869
+[17:32:41.687] [SEVERE ] player 2 placing token on slot 1
+[17:32:42.698] [SEVERE ] updating countdown to 6858
+[17:32:42.698] [SEVERE ] player 2 placing token on slot 5
+[17:32:43.699] [SEVERE ] updating countdown to 5857
+[17:32:43.701] [SEVERE ] player 2 placing token on slot 6
+[17:32:44.705] [SEVERE ] removing player 2 token from slot 1
+[17:32:44.705] [SEVERE ] removing player 2 token from slot 5
+[17:32:44.705] [SEVERE ] removing player 2 token from slot 6
+[17:32:44.705] [SEVERE ] setting player 2 freeze to 3000
+[17:32:45.713] [SEVERE ] setting player 2 freeze to 2000
+[17:32:46.718] [SEVERE ] setting player 2 freeze to 1000
+[17:32:47.724] [SEVERE ] setting player 2 freeze to 0
+[17:32:48.728] [SEVERE ] player 2 placing token on slot 5
+[17:32:49.563] [SEVERE ] updating countdown to 20000
+[17:32:49.673] [SEVERE ] removing tokens from slot 4
+[17:32:49.673] [SEVERE ] removing card from slot 4
+[17:32:49.784] [SEVERE ] removing tokens from slot 0
+[17:32:49.784] [SEVERE ] removing card from slot 0
+[17:32:49.885] [SEVERE ] removing tokens from slot 6
+[17:32:49.885] [SEVERE ] removing card from slot 6
+[17:32:49.986] [SEVERE ] removing tokens from slot 1
+[17:32:49.986] [SEVERE ] removing card from slot 1
+[17:32:50.087] [SEVERE ] removing tokens from slot 11
+[17:32:50.087] [SEVERE ] removing card from slot 11
+[17:32:50.187] [SEVERE ] removing tokens from slot 3
+[17:32:50.187] [SEVERE ] removing card from slot 3
+[17:32:50.288] [SEVERE ] removing tokens from slot 10
+[17:32:50.288] [SEVERE ] removing card from slot 10
+[17:32:50.403] [SEVERE ] removing tokens from slot 8
+[17:32:50.403] [SEVERE ] removing card from slot 8
+[17:32:50.513] [SEVERE ] removing tokens from slot 2
+[17:32:50.513] [SEVERE ] removing card from slot 2
+[17:32:50.623] [SEVERE ] removing tokens from slot 9
+[17:32:50.623] [SEVERE ] removing card from slot 9
+[17:32:50.733] [SEVERE ] removing tokens from slot 7
+[17:32:50.733] [SEVERE ] removing card from slot 7
+[17:32:50.843] [SEVERE ] removing player 2 token from slot 5
+[17:32:50.843] [SEVERE ] removing tokens from slot 5
+[17:32:50.843] [SEVERE ] removing card from slot 5
+[17:32:50.843] [SEVERE ] updating countdown to 20000
+[17:32:50.952] [SEVERE ] placing card 0 in slot 4
+[17:32:51.062] [SEVERE ] placing card 42 in slot 0
+[17:32:51.171] [SEVERE ] placing card 35 in slot 6
+[17:32:51.281] [SEVERE ] placing card 12 in slot 1
+[17:32:51.391] [SEVERE ] placing card 27 in slot 11
+[17:32:51.492] [SEVERE ] placing card 71 in slot 3
+[17:32:51.592] [SEVERE ] placing card 75 in slot 10
+[17:32:51.703] [SEVERE ] placing card 64 in slot 8
+[17:32:51.813] [SEVERE ] placing card 26 in slot 2
+[17:32:51.844] [SEVERE ] player 2 placing token on slot 2
+[17:32:51.919] [SEVERE ] placing card 38 in slot 9
+[17:32:52.030] [SEVERE ] placing card 68 in slot 7
+[17:32:52.140] [SEVERE ] placing card 31 in slot 5
+[17:32:52.848] [SEVERE ] player 2 placing token on slot 9
+[17:32:53.152] [SEVERE ] updating countdown to 19988
+[17:32:53.859] [SEVERE ] player 2 placing token on slot 1
+[17:32:54.152] [SEVERE ] updating countdown to 18988
+[17:32:54.152] [SEVERE ] removing player 2 token from slot 2
+[17:32:54.152] [SEVERE ] removing player 2 token from slot 9
+[17:32:54.152] [SEVERE ] removing player 2 token from slot 1
+[17:32:54.152] [SEVERE ] setting player 2 freeze to 3000
+[17:32:55.156] [SEVERE ] updating countdown to 17984
+[17:32:55.156] [SEVERE ] setting player 2 freeze to 2000
+[17:32:56.157] [SEVERE ] updating countdown to 16983
+[17:32:56.157] [SEVERE ] setting player 2 freeze to 1000
+[17:32:57.163] [SEVERE ] updating countdown to 15977
+[17:32:57.163] [SEVERE ] setting player 2 freeze to 0
+[17:32:58.175] [SEVERE ] updating countdown to 14965
+[17:32:58.175] [SEVERE ] player 2 placing token on slot 1
+[17:32:59.186] [SEVERE ] updating countdown to 13954
+[17:32:59.186] [SEVERE ] player 2 placing token on slot 6
+[17:33:00.201] [SEVERE ] updating countdown to 12939
+[17:33:00.201] [SEVERE ] player 2 placing token on slot 7
+[17:33:01.211] [SEVERE ] updating countdown to 11929
+[17:33:01.211] [SEVERE ] removing player 2 token from slot 1
+[17:33:01.211] [SEVERE ] removing player 2 token from slot 6
+[17:33:01.211] [SEVERE ] removing player 2 token from slot 7
+[17:33:01.211] [SEVERE ] setting player 2 freeze to 3000
+[17:33:02.223] [SEVERE ] updating countdown to 10917
+[17:33:02.223] [SEVERE ] setting player 2 freeze to 2000
+[17:33:03.229] [SEVERE ] updating countdown to 9911
+[17:33:03.229] [SEVERE ] setting player 2 freeze to 1000
+[17:33:04.237] [SEVERE ] updating countdown to 8903
+[17:33:04.237] [SEVERE ] setting player 2 freeze to 0
+[17:33:05.243] [SEVERE ] updating countdown to 7897
+[17:33:05.243] [SEVERE ] player 2 placing token on slot 4
+[17:33:06.251] [SEVERE ] updating countdown to 6889
+[17:33:06.251] [SEVERE ] player 2 placing token on slot 1
+[17:33:07.267] [SEVERE ] updating countdown to 5873
+[17:33:07.267] [SEVERE ] removing player 2 token from slot 4
+[17:33:08.282] [SEVERE ] player 2 placing token on slot 8
+[17:33:09.295] [SEVERE ] player 2 placing token on slot 7
+[17:33:09.295] [SEVERE ] removing player 2 token from slot 1
+[17:33:09.295] [SEVERE ] removing player 2 token from slot 8
+[17:33:09.295] [SEVERE ] removing player 2 token from slot 7
+[17:33:09.295] [SEVERE ] setting player 2 freeze to 3000
+[17:33:10.306] [SEVERE ] setting player 2 freeze to 2000
+[17:33:11.311] [SEVERE ] setting player 2 freeze to 1000
+[17:33:12.314] [SEVERE ] setting player 2 freeze to 0
+[17:33:13.146] [SEVERE ] updating countdown to 20000
+[17:33:13.256] [SEVERE ] removing tokens from slot 4
+[17:33:13.256] [SEVERE ] removing card from slot 4
+[17:33:13.367] [SEVERE ] removing tokens from slot 0
+[17:33:13.367] [SEVERE ] removing card from slot 0
+[17:33:13.469] [SEVERE ] removing tokens from slot 6
+[17:33:13.469] [SEVERE ] removing card from slot 6
+[17:33:13.570] [SEVERE ] removing tokens from slot 1
+[17:33:13.570] [SEVERE ] removing card from slot 1
+[17:33:13.671] [SEVERE ] removing tokens from slot 11
+[17:33:13.671] [SEVERE ] removing card from slot 11
+[17:33:13.772] [SEVERE ] removing tokens from slot 3
+[17:33:13.772] [SEVERE ] removing card from slot 3
+[17:33:13.872] [SEVERE ] removing tokens from slot 10
+[17:33:13.872] [SEVERE ] removing card from slot 10
+[17:33:13.968] [SEVERE ] key 87 was pressed by player 1
+[17:33:13.984] [SEVERE ] removing tokens from slot 8
+[17:33:13.984] [SEVERE ] removing card from slot 8
+[17:33:14.094] [SEVERE ] removing tokens from slot 2
+[17:33:14.094] [SEVERE ] removing card from slot 2
+[17:33:14.204] [SEVERE ] removing tokens from slot 9
+[17:33:14.204] [SEVERE ] removing card from slot 9
+[17:33:14.314] [SEVERE ] removing tokens from slot 7
+[17:33:14.314] [SEVERE ] removing card from slot 7
+[17:33:14.425] [SEVERE ] removing tokens from slot 5
+[17:33:14.425] [SEVERE ] removing card from slot 5
+[17:33:14.425] [SEVERE ] updating countdown to 20000
+[17:33:14.535] [SEVERE ] placing card 56 in slot 4
+[17:33:14.645] [SEVERE ] placing card 76 in slot 0
+[17:33:14.755] [SEVERE ] placing card 14 in slot 6
+[17:33:14.865] [SEVERE ] placing card 26 in slot 1
+[17:33:14.975] [SEVERE ] placing card 40 in slot 11
+[17:33:15.085] [SEVERE ] placing card 62 in slot 3
+[17:33:15.195] [SEVERE ] placing card 22 in slot 10
+[17:33:15.305] [SEVERE ] placing card 24 in slot 8
+[17:33:15.415] [SEVERE ] placing card 47 in slot 2
+[17:33:15.430] [SEVERE ] player 2 placing token on slot 2
+[17:33:15.516] [SEVERE ] placing card 25 in slot 9
+[17:33:15.619] [SEVERE ] placing card 50 in slot 7
+[17:33:15.729] [SEVERE ] placing card 72 in slot 5
+[17:33:16.440] [SEVERE ] player 2 placing token on slot 6
+[17:33:16.735] [SEVERE ] updating countdown to 19994
+[17:33:17.442] [SEVERE ] player 2 placing token on slot 5
+[17:33:17.750] [SEVERE ] updating countdown to 18979
+[17:33:17.750] [SEVERE ] removing player 2 token from slot 2
+[17:33:17.750] [SEVERE ] removing player 2 token from slot 6
+[17:33:17.750] [SEVERE ] removing player 2 token from slot 5
+[17:33:17.750] [SEVERE ] setting player 2 freeze to 3000
+[17:33:18.760] [SEVERE ] updating countdown to 17969
+[17:33:18.760] [SEVERE ] setting player 2 freeze to 2000
+[17:33:19.767] [SEVERE ] updating countdown to 16962
+[17:33:19.767] [SEVERE ] setting player 2 freeze to 1000
+[17:33:20.773] [SEVERE ] updating countdown to 15956
+[17:33:20.773] [SEVERE ] setting player 2 freeze to 0
+[17:33:21.780] [SEVERE ] updating countdown to 14949
+[17:33:21.780] [SEVERE ] player 2 placing token on slot 10
+[17:33:22.789] [SEVERE ] updating countdown to 13940
+[17:33:22.789] [SEVERE ] player 2 placing token on slot 2
+[17:33:23.804] [SEVERE ] updating countdown to 12925
+[17:33:23.804] [SEVERE ] removing player 2 token from slot 10
+[17:33:24.819] [SEVERE ] updating countdown to 11910
+[17:33:24.820] [SEVERE ] player 2 placing token on slot 1
+[17:33:25.826] [SEVERE ] updating countdown to 10903
+[17:33:25.826] [SEVERE ] player 2 placing token on slot 0
+[17:33:26.838] [SEVERE ] updating countdown to 9891
+[17:33:26.838] [SEVERE ] removing player 2 token from slot 2
+[17:33:26.838] [SEVERE ] removing player 2 token from slot 1
+[17:33:26.838] [SEVERE ] removing player 2 token from slot 0
+[17:33:26.838] [SEVERE ] setting player 2 freeze to 3000
+[17:33:27.848] [SEVERE ] updating countdown to 8881
+[17:33:27.848] [SEVERE ] setting player 2 freeze to 2000
+[17:33:28.852] [SEVERE ] setting player 2 freeze to 1000
+[17:33:28.852] [SEVERE ] updating countdown to 7877
+[17:33:29.855] [SEVERE ] updating countdown to 6874
+[17:33:29.855] [SEVERE ] setting player 2 freeze to 0

@@ -1,0 +1,1302 @@
+[14:15:36.589] [INFO   ] thread bguspl.set.Main.main() starting.
+[14:15:36.605] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[14:15:36.605] [SEVERE ] configuration file was loaded from resources directory.
+[14:15:37.456] [INFO   ] thread dealer starting.
+[14:15:37.456] [INFO   ] thread dealer starting.
+[14:15:37.468] [INFO   ] thread Thread-1 starting.
+[14:15:37.468] [INFO   ] thread Thread-2 starting.
+[14:15:37.477] [SEVERE ] updating countdown to 60000
+[14:15:37.582] [SEVERE ] placing card 52 in slot 11
+[14:15:37.683] [SEVERE ] placing card 59 in slot 7
+[14:15:37.786] [SEVERE ] placing card 60 in slot 10
+[14:15:37.887] [SEVERE ] placing card 37 in slot 0
+[14:15:37.990] [SEVERE ] placing card 40 in slot 9
+[14:15:38.093] [SEVERE ] placing card 10 in slot 3
+[14:15:38.194] [SEVERE ] placing card 63 in slot 8
+[14:15:38.298] [SEVERE ] placing card 30 in slot 6
+[14:15:38.415] [SEVERE ] placing card 17 in slot 5
+[14:15:38.529] [SEVERE ] placing card 25 in slot 4
+[14:15:38.631] [SEVERE ] placing card 46 in slot 2
+[14:15:38.732] [SEVERE ] placing card 49 in slot 1
+[14:15:39.519] [SEVERE ] key 81 was pressed by player 1
+[14:15:39.521] [SEVERE ] player 1 placing token on slot 0
+[14:15:39.674] [SEVERE ] key 87 was pressed by player 1
+[14:15:39.676] [SEVERE ] player 1 placing token on slot 1
+[14:15:39.734] [SEVERE ] updating countdown to 60000
+[14:15:39.904] [SEVERE ] key 69 was pressed by player 1
+[14:15:39.904] [SEVERE ] player 1 placing token on slot 2
+[14:15:40.735] [SEVERE ] updating countdown to 58998
+[14:15:40.737] [SEVERE ] removing player 1 token from slot 0
+[14:15:40.739] [SEVERE ] removing player 1 token from slot 1
+[14:15:40.740] [SEVERE ] removing player 1 token from slot 2
+[14:15:40.742] [SEVERE ] setting player 1 freeze to 3000
+[14:15:41.040] [SEVERE ] key 81 was pressed by player 1
+[14:15:41.745] [SEVERE ] updating countdown to 57988
+[14:15:41.745] [SEVERE ] setting player 1 freeze to 2000
+[14:15:42.750] [SEVERE ] setting player 1 freeze to 1000
+[14:15:42.750] [SEVERE ] updating countdown to 56983
+[14:15:43.755] [SEVERE ] updating countdown to 55978
+[14:15:43.755] [SEVERE ] setting player 1 freeze to 0
+[14:15:44.756] [SEVERE ] updating countdown to 54977
+[14:15:45.683] [SEVERE ] key 80 was pressed by player 2
+[14:15:45.683] [SEVERE ] player 2 placing token on slot 3
+[14:15:45.758] [SEVERE ] updating countdown to 53975
+[14:15:45.948] [SEVERE ] key 79 was pressed by player 2
+[14:15:45.949] [SEVERE ] player 2 placing token on slot 2
+[14:15:46.167] [SEVERE ] key 73 was pressed by player 2
+[14:15:46.167] [SEVERE ] player 2 placing token on slot 1
+[14:15:46.760] [SEVERE ] updating countdown to 52973
+[14:15:46.762] [SEVERE ] removing player 2 token from slot 3
+[14:15:46.763] [SEVERE ] removing player 2 token from slot 2
+[14:15:46.765] [SEVERE ] removing player 2 token from slot 1
+[14:15:46.767] [SEVERE ] setting player 2 freeze to 3000
+[14:15:47.767] [SEVERE ] setting player 2 freeze to 2000
+[14:15:47.767] [SEVERE ] updating countdown to 51966
+[14:15:48.772] [SEVERE ] updating countdown to 50961
+[14:15:48.772] [SEVERE ] setting player 2 freeze to 1000
+[14:15:49.778] [SEVERE ] setting player 2 freeze to 0
+[14:15:49.778] [SEVERE ] updating countdown to 49955
+[14:15:50.779] [SEVERE ] updating countdown to 48954
+[14:15:51.257] [SEVERE ] key 59 was pressed by player 2
+[14:15:51.259] [SEVERE ] player 2 placing token on slot 7
+[14:15:51.492] [SEVERE ] key 76 was pressed by player 2
+[14:15:51.494] [SEVERE ] player 2 placing token on slot 6
+[14:15:51.665] [SEVERE ] key 75 was pressed by player 2
+[14:15:51.667] [SEVERE ] player 2 placing token on slot 5
+[14:15:51.781] [SEVERE ] updating countdown to 47952
+[14:15:51.783] [SEVERE ] removing player 2 token from slot 7
+[14:15:51.783] [SEVERE ] removing player 2 token from slot 6
+[14:15:51.785] [SEVERE ] removing player 2 token from slot 5
+[14:15:51.787] [SEVERE ] setting player 2 freeze to 3000
+[14:15:52.790] [SEVERE ] updating countdown to 46943
+[14:15:52.790] [SEVERE ] setting player 2 freeze to 2000
+[14:15:53.796] [SEVERE ] updating countdown to 45937
+[14:15:53.796] [SEVERE ] setting player 2 freeze to 1000
+[14:15:54.802] [SEVERE ] updating countdown to 44931
+[14:15:54.802] [SEVERE ] setting player 2 freeze to 0
+[14:15:55.738] [SEVERE ] key 81 was pressed by player 1
+[14:15:55.739] [SEVERE ] player 1 placing token on slot 0
+[14:15:55.803] [SEVERE ] key 87 was pressed by player 1
+[14:15:55.804] [SEVERE ] player 1 placing token on slot 1
+[14:15:55.808] [SEVERE ] updating countdown to 43925
+[14:15:55.828] [SEVERE ] key 69 was pressed by player 1
+[14:15:55.831] [SEVERE ] player 1 placing token on slot 2
+[14:15:56.810] [SEVERE ] updating countdown to 42923
+[14:15:56.811] [SEVERE ] removing player 1 token from slot 0
+[14:15:56.813] [SEVERE ] removing player 1 token from slot 1
+[14:15:56.814] [SEVERE ] removing player 1 token from slot 2
+[14:15:56.816] [SEVERE ] setting player 1 freeze to 3000
+[14:15:57.085] [SEVERE ] key 81 was pressed by player 1
+[14:15:57.170] [SEVERE ] key 87 was pressed by player 1
+[14:15:57.176] [SEVERE ] key 69 was pressed by player 1
+[14:15:57.404] [SEVERE ] key 81 was pressed by player 1
+[14:15:57.484] [SEVERE ] key 87 was pressed by player 1
+[14:15:57.506] [SEVERE ] key 69 was pressed by player 1
+[14:15:57.746] [SEVERE ] key 81 was pressed by player 1
+[14:15:57.813] [SEVERE ] key 87 was pressed by player 1
+[14:15:57.820] [SEVERE ] updating countdown to 41913
+[14:15:57.832] [SEVERE ] setting player 1 freeze to 2000
+[14:15:57.832] [SEVERE ] key 69 was pressed by player 1
+[14:15:58.045] [SEVERE ] key 81 was pressed by player 1
+[14:15:58.115] [SEVERE ] key 87 was pressed by player 1
+[14:15:58.129] [SEVERE ] key 69 was pressed by player 1
+[14:15:58.396] [SEVERE ] key 81 was pressed by player 1
+[14:15:58.422] [SEVERE ] key 87 was pressed by player 1
+[14:15:58.440] [SEVERE ] key 69 was pressed by player 1
+[14:15:58.675] [SEVERE ] key 81 was pressed by player 1
+[14:15:58.722] [SEVERE ] key 87 was pressed by player 1
+[14:15:58.743] [SEVERE ] key 69 was pressed by player 1
+[14:15:58.832] [SEVERE ] updating countdown to 40901
+[14:15:58.843] [SEVERE ] setting player 1 freeze to 1000
+[14:15:58.930] [SEVERE ] key 81 was pressed by player 1
+[14:15:58.990] [SEVERE ] key 87 was pressed by player 1
+[14:15:59.009] [SEVERE ] key 69 was pressed by player 1
+[14:15:59.843] [SEVERE ] updating countdown to 39890
+[14:15:59.844] [SEVERE ] setting player 1 freeze to 0
+[14:16:00.845] [SEVERE ] updating countdown to 38888
+[14:16:01.846] [SEVERE ] updating countdown to 37887
+[14:16:02.848] [SEVERE ] updating countdown to 36885
+[14:16:03.848] [SEVERE ] updating countdown to 35885
+[14:16:04.850] [SEVERE ] updating countdown to 34883
+[14:16:05.851] [SEVERE ] updating countdown to 33882
+[14:16:06.851] [SEVERE ] updating countdown to 32882
+[14:16:07.854] [SEVERE ] updating countdown to 31879
+[14:16:08.855] [SEVERE ] updating countdown to 30878
+[14:16:09.856] [SEVERE ] updating countdown to 29877
+[14:16:10.857] [SEVERE ] updating countdown to 28876
+[14:16:11.858] [SEVERE ] updating countdown to 27875
+[14:16:12.859] [SEVERE ] updating countdown to 26874
+[14:16:13.861] [SEVERE ] updating countdown to 25872
+[14:16:14.862] [SEVERE ] updating countdown to 24872
+[14:16:15.862] [SEVERE ] updating countdown to 23871
+[14:16:16.863] [SEVERE ] updating countdown to 22870
+[14:16:17.865] [SEVERE ] updating countdown to 21868
+[14:16:18.866] [SEVERE ] updating countdown to 20867
+[14:16:19.868] [SEVERE ] updating countdown to 19865
+[14:16:20.153] [SEVERE ] key 68 was pressed by player 1
+[14:16:20.154] [SEVERE ] player 1 placing token on slot 6
+[14:16:20.843] [SEVERE ] key 67 was pressed by player 1
+[14:16:20.843] [SEVERE ] player 1 placing token on slot 10
+[14:16:20.869] [SEVERE ] updating countdown to 18864
+[14:16:21.045] [SEVERE ] key 86 was pressed by player 1
+[14:16:21.046] [SEVERE ] player 1 placing token on slot 11
+[14:16:21.870] [SEVERE ] updating countdown to 17863
+[14:16:21.871] [SEVERE ] removing player 1 token from slot 6
+[14:16:21.872] [SEVERE ] removing player 1 token from slot 10
+[14:16:21.874] [SEVERE ] removing player 1 token from slot 11
+[14:16:21.875] [SEVERE ] setting player 1 freeze to 3000
+[14:16:22.889] [SEVERE ] setting player 1 freeze to 2000
+[14:16:22.889] [SEVERE ] updating countdown to 16844
+[14:16:23.893] [SEVERE ] setting player 1 freeze to 1000
+[14:16:23.893] [SEVERE ] updating countdown to 15840
+[14:16:24.898] [SEVERE ] setting player 1 freeze to 0
+[14:16:24.898] [SEVERE ] updating countdown to 14835
+[14:16:25.443] [SEVERE ] key 83 was pressed by player 1
+[14:16:25.444] [SEVERE ] player 1 placing token on slot 5
+[14:16:25.515] [SEVERE ] key 67 was pressed by player 1
+[14:16:25.516] [SEVERE ] player 1 placing token on slot 10
+[14:16:25.566] [SEVERE ] key 86 was pressed by player 1
+[14:16:25.568] [SEVERE ] player 1 placing token on slot 11
+[14:16:25.900] [SEVERE ] updating countdown to 13833
+[14:16:26.002] [SEVERE ] removing player 1 token from slot 5
+[14:16:26.004] [SEVERE ] removing tokens from slot 5
+[14:16:26.004] [SEVERE ] removing card from slot 5
+[14:16:26.105] [SEVERE ] removing player 1 token from slot 10
+[14:16:26.106] [SEVERE ] removing tokens from slot 10
+[14:16:26.106] [SEVERE ] removing card from slot 10
+[14:16:26.210] [SEVERE ] removing player 1 token from slot 11
+[14:16:26.210] [SEVERE ] removing tokens from slot 11
+[14:16:26.210] [SEVERE ] removing card from slot 11
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 1000
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 999
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 998
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 997
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 996
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 995
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 994
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 993
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 992
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 991
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 990
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 989
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 988
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 987
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 986
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 985
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 984
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 983
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 982
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 981
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 980
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 979
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 978
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 977
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 976
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 975
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 974
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 973
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 972
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 971
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 970
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 969
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 968
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 967
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 966
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 965
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 964
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 963
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 962
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 961
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 960
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 959
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 958
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 957
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 956
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 955
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 954
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 953
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 952
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 951
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 950
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 949
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 948
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 947
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 946
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 945
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 944
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 943
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 942
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 941
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 940
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 939
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 938
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 937
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 936
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 935
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 934
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 933
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 932
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 931
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 930
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 929
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 928
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 927
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 926
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 925
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 924
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 923
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 922
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 921
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 920
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 919
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 918
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 917
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 916
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 915
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 914
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 913
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 912
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 911
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 910
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 909
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 908
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 907
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 906
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 905
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 904
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 903
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 902
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 901
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 900
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 899
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 898
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 897
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 896
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 895
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 894
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 893
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 892
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 891
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 890
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 889
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 888
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 887
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 886
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 885
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 884
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 883
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 882
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 881
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 880
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 879
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 878
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 877
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 876
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 875
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 874
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 873
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 872
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 871
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 870
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 869
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 868
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 867
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 866
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 865
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 864
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 863
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 862
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 861
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 860
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 859
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 858
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 857
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 856
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 855
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 854
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 853
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 852
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 851
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 850
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 849
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 848
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 847
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 846
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 845
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 844
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 843
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 842
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 841
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 840
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 839
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 838
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 837
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 836
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 835
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 834
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 833
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 832
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 831
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 830
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 829
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 828
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 827
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 826
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 825
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 824
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 823
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 822
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 821
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 820
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 819
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 818
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 817
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 816
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 815
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 814
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 813
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 812
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 811
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 810
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 809
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 808
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 807
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 806
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 805
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 804
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 803
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 802
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 801
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 800
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 799
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 798
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 797
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 796
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 795
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 794
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 793
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 792
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 791
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 790
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 789
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 788
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 787
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 786
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 785
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 784
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 783
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 782
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 781
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 780
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 779
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 778
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 777
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 776
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 775
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 774
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 773
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 772
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 771
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 770
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 769
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 768
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 767
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 766
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 765
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 764
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 763
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 762
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 761
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 760
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 759
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 758
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 757
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 756
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 755
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 754
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 753
+[14:16:26.211] [SEVERE ] setting player 1 freeze to 752
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 751
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 750
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 749
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 748
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 747
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 746
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 745
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 744
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 743
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 742
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 741
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 740
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 739
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 738
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 737
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 736
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 735
+[14:16:26.226] [SEVERE ] setting player 1 freeze to 734
+[14:16:26.228] [SEVERE ] setting player 1 freeze to 733
+[14:16:26.228] [SEVERE ] setting player 1 freeze to 732
+[14:16:26.228] [SEVERE ] setting player 1 freeze to 731
+[14:16:26.228] [SEVERE ] setting player 1 freeze to 730
+[14:16:26.228] [SEVERE ] setting player 1 freeze to 729
+[14:16:26.228] [SEVERE ] setting player 1 freeze to 728
+[14:16:26.229] [SEVERE ] setting player 1 freeze to 727
+[14:16:26.229] [SEVERE ] setting player 1 freeze to 726
+[14:16:26.229] [SEVERE ] setting player 1 freeze to 725
+[14:16:26.229] [SEVERE ] setting player 1 freeze to 724
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 723
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 722
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 721
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 720
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 719
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 718
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 717
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 716
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 715
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 714
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 713
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 712
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 711
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 710
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 709
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 708
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 707
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 706
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 705
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 704
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 703
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 702
+[14:16:26.230] [SEVERE ] setting player 1 freeze to 701
+[14:16:26.233] [SEVERE ] setting player 1 freeze to 700
+[14:16:26.233] [SEVERE ] setting player 1 freeze to 699
+[14:16:26.233] [SEVERE ] setting player 1 freeze to 698
+[14:16:26.233] [SEVERE ] setting player 1 freeze to 697
+[14:16:26.233] [SEVERE ] setting player 1 freeze to 696
+[14:16:26.233] [SEVERE ] setting player 1 freeze to 695
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 694
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 693
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 692
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 691
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 690
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 689
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 688
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 687
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 686
+[14:16:26.234] [SEVERE ] setting player 1 freeze to 685
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 684
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 683
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 682
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 681
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 680
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 679
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 678
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 677
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 676
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 675
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 674
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 673
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 672
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 671
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 670
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 669
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 668
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 667
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 666
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 665
+[14:16:26.235] [SEVERE ] setting player 1 freeze to 664
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 663
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 662
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 661
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 660
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 659
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 658
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 657
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 656
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 655
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 654
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 653
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 652
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 651
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 650
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 649
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 648
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 647
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 646
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 645
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 644
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 643
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 642
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 641
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 640
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 639
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 638
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 637
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 636
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 635
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 634
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 633
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 632
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 631
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 630
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 629
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 628
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 627
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 626
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 625
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 624
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 623
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 622
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 621
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 620
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 619
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 618
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 617
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 616
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 615
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 614
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 613
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 612
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 611
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 610
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 609
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 608
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 607
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 606
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 605
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 604
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 603
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 602
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 601
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 600
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 599
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 598
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 597
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 596
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 595
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 594
+[14:16:26.238] [SEVERE ] setting player 1 freeze to 593
+[14:16:26.242] [SEVERE ] setting player 1 freeze to 592
+[14:16:26.242] [SEVERE ] setting player 1 freeze to 591
+[14:16:26.242] [SEVERE ] setting player 1 freeze to 590
+[14:16:26.242] [SEVERE ] setting player 1 freeze to 589
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 588
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 587
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 586
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 585
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 584
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 583
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 582
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 581
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 580
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 579
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 578
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 577
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 576
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 575
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 574
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 573
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 572
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 571
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 570
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 569
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 568
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 567
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 566
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 565
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 564
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 563
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 562
+[14:16:26.243] [SEVERE ] setting player 1 freeze to 561
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 560
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 559
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 558
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 557
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 556
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 555
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 554
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 553
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 552
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 551
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 550
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 549
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 548
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 547
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 546
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 545
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 544
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 543
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 542
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 541
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 540
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 539
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 538
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 537
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 536
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 535
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 534
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 533
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 532
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 531
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 530
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 529
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 528
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 527
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 526
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 525
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 524
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 523
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 522
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 521
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 520
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 519
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 518
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 517
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 516
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 515
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 514
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 513
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 512
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 511
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 510
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 509
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 508
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 507
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 506
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 505
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 504
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 503
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 502
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 501
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 500
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 499
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 498
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 497
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 496
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 495
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 494
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 493
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 492
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 491
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 490
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 489
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 488
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 487
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 486
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 485
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 484
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 483
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 482
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 481
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 480
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 479
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 478
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 477
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 476
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 475
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 474
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 473
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 472
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 471
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 470
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 469
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 468
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 467
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 466
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 465
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 464
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 463
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 462
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 461
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 460
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 459
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 458
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 457
+[14:16:26.244] [SEVERE ] setting player 1 freeze to 456
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 455
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 454
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 453
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 452
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 451
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 450
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 449
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 448
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 447
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 446
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 445
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 444
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 443
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 442
+[14:16:26.249] [SEVERE ] setting player 1 freeze to 441
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 440
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 439
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 438
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 437
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 436
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 435
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 434
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 433
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 432
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 431
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 430
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 429
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 428
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 427
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 426
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 425
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 424
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 423
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 422
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 421
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 420
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 419
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 418
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 417
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 416
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 415
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 414
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 413
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 412
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 411
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 410
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 409
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 408
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 407
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 406
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 405
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 404
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 403
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 402
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 401
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 400
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 399
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 398
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 397
+[14:16:26.250] [SEVERE ] setting player 1 freeze to 396
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 395
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 394
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 393
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 392
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 391
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 390
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 389
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 388
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 387
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 386
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 385
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 384
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 383
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 382
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 381
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 380
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 379
+[14:16:26.254] [SEVERE ] setting player 1 freeze to 378
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 377
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 376
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 375
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 374
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 373
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 372
+[14:16:26.255] [SEVERE ] setting player 1 freeze to 371
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 370
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 369
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 368
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 367
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 366
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 365
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 364
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 363
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 362
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 361
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 360
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 359
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 358
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 357
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 356
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 355
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 354
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 353
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 352
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 351
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 350
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 349
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 348
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 347
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 346
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 345
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 344
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 343
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 342
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 341
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 340
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 339
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 338
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 337
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 336
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 335
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 334
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 333
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 332
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 331
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 330
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 329
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 328
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 327
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 326
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 325
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 324
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 323
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 322
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 321
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 320
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 319
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 318
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 317
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 316
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 315
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 314
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 313
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 312
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 311
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 310
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 309
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 308
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 307
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 306
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 305
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 304
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 303
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 302
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 301
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 300
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 299
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 298
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 297
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 296
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 295
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 294
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 293
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 292
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 291
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 290
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 289
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 288
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 287
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 286
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 285
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 284
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 283
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 282
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 281
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 280
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 279
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 278
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 277
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 276
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 275
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 274
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 273
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 272
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 271
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 270
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 269
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 268
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 267
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 266
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 265
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 264
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 263
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 262
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 261
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 260
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 259
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 258
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 257
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 256
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 255
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 254
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 253
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 252
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 251
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 250
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 249
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 248
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 247
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 246
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 245
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 244
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 243
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 242
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 241
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 240
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 239
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 238
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 237
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 236
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 235
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 234
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 233
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 232
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 231
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 230
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 229
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 228
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 227
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 226
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 225
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 224
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 223
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 222
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 221
+[14:16:26.256] [SEVERE ] setting player 1 freeze to 220
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 219
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 218
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 217
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 216
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 215
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 214
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 213
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 212
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 211
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 210
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 209
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 208
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 207
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 206
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 205
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 204
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 203
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 202
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 201
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 200
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 199
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 198
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 197
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 196
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 195
+[14:16:26.265] [SEVERE ] setting player 1 freeze to 194
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 193
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 192
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 191
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 190
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 189
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 188
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 187
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 186
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 185
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 184
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 183
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 182
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 181
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 180
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 179
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 178
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 177
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 176
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 175
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 174
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 173
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 172
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 171
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 170
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 169
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 168
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 167
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 166
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 165
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 164
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 163
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 162
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 161
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 160
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 159
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 158
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 157
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 156
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 155
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 154
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 153
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 152
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 151
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 150
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 149
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 148
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 147
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 146
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 145
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 144
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 143
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 142
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 141
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 140
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 139
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 138
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 137
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 136
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 135
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 134
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 133
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 132
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 131
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 130
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 129
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 128
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 127
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 126
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 125
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 124
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 123
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 122
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 121
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 120
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 119
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 118
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 117
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 116
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 115
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 114
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 113
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 112
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 111
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 110
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 109
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 108
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 107
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 106
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 105
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 104
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 103
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 102
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 101
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 100
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 99
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 98
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 97
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 96
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 95
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 94
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 93
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 92
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 91
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 90
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 89
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 88
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 87
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 86
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 85
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 84
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 83
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 82
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 81
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 80
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 79
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 78
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 77
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 76
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 75
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 74
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 73
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 72
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 71
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 70
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 69
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 68
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 67
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 66
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 65
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 64
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 63
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 62
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 61
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 60
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 59
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 58
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 57
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 56
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 55
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 54
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 53
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 52
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 51
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 50
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 49
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 48
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 47
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 46
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 45
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 44
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 43
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 42
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 41
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 40
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 39
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 38
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 37
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 36
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 35
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 34
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 33
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 32
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 31
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 30
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 29
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 28
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 27
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 26
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 25
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 24
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 23
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 22
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 21
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 20
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 19
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 18
+[14:16:26.267] [SEVERE ] setting player 1 freeze to 17
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 16
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 15
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 14
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 13
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 12
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 11
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 10
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 9
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 8
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 7
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 6
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 5
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 4
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 3
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 2
+[14:16:26.276] [SEVERE ] setting player 1 freeze to 1
+[14:16:26.317] [SEVERE ] placing card 36 in slot 11
+[14:16:26.427] [SEVERE ] placing card 80 in slot 10
+[14:16:26.537] [SEVERE ] placing card 74 in slot 5
+[14:16:27.537] [SEVERE ] updating countdown to 12196
+[14:16:28.538] [SEVERE ] updating countdown to 11195
+[14:16:29.542] [SEVERE ] updating countdown to 10191
+[14:16:30.545] [SEVERE ] updating countdown to 9188
+[14:16:31.547] [SEVERE ] updating countdown to 8186
+[14:16:32.552] [SEVERE ] updating countdown to 7181
+[14:16:33.556] [SEVERE ] updating countdown to 6177
+[14:16:34.558] [SEVERE ] updating countdown to 5175
+[14:16:35.733] [SEVERE ] updating countdown to 4000
+[14:16:35.733] [SEVERE ] updating countdown to 4000
+[14:16:35.733] [SEVERE ] updating countdown to 4000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:36.733] [SEVERE ] updating countdown to 3000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:37.733] [SEVERE ] updating countdown to 2000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:38.733] [SEVERE ] updating countdown to 1000
+[14:16:39.733] [SEVERE ] updating countdown to 60000
+[14:16:39.838] [SEVERE ] removing tokens from slot 11
+[14:16:39.838] [SEVERE ] removing card from slot 11
+[14:16:39.947] [SEVERE ] removing tokens from slot 7
+[14:16:39.947] [SEVERE ] removing card from slot 7
