@@ -1,8 +1,11 @@
 package bguspl.set.ex;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
 import java.util.Random;
-import java.util.concurrent.ArrayBlockingQueue;  
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.stream.Collectors;
 import java.util.Scanner;
 import bguspl.set.Env;
 
@@ -90,7 +93,7 @@ public class Player implements Runnable {
         this.incomingActions = new ArrayBlockingQueue<Integer>(env.config.featureSize);
         this.point = false;
         this.penalty = false;
-        removeAllCardsFromTable = false;
+        removeAllCardsFromTable = true;
     }
 
     /**
@@ -105,20 +108,25 @@ public class Player implements Runnable {
 
         while (!terminate) {
             // Press for ai
-            if(!human){
+            /*if(!human){
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException ignored) {}
                 if(!incomingActions.isEmpty()) keyPressed(incomingActions.remove());      
-            }
+            }*/
+            try {
+                Thread.sleep(1000);
+                automatePresses();
+            } catch (Exception e) {} 
             // Wait for dealer when (tokens.size == featureSize)
             synchronized(table.tokens.get(id)) {
-                while (table.tokens.get(id).size() == env.config.featureSize || removeAllCardsFromTable) {
+                while (table.tokens.get(id).size() == env.config.featureSize || removeAllCardsFromTable) { 
                     try {
                         table.tokens.get(id).wait();
                     } catch (InterruptedException ignored) {}
                 }
             }
+
             // Award/penalize the player
             if(point) point();
             if(penalty) penalty();
@@ -126,6 +134,7 @@ public class Player implements Runnable {
         }
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");  
+        System.out.println(id + " : main terminted");
     }
 
     /**
@@ -165,7 +174,8 @@ public class Player implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        // TODO implement
+       terminate = true;
+       System.out.println(id + " : terminate");
     }
 
     /**
@@ -174,16 +184,18 @@ public class Player implements Runnable {
      * @param slot - the slot corresponding to the key pressed.
      */
     public void keyPressed(int slot)  {
-            if(!point && !penalty && table.tokens.get(id).size() != env.config.featureSize){
-                if(table.isPlaced(id, slot)) {
-                    table.removeToken(id, slot);
-                }
-                else {
-                    table.placeToken(id, slot);
-                }
-                // Notify the ai to continue generate keypresses 
-                if(!human) synchronized(aiThread) { aiThread.notify();}
+        // Don't allow more then feature size tokens &&  don't allow the input manager to access tokenPress
+        if(table.tokens.get(id).size() != env.config.featureSize && !point && !penalty && !removeAllCardsFromTable){
+            if(table.isPlaced(id, slot)) {
+                table.removeToken(id, slot);
             }
+            else {
+                table.placeToken(id, slot);
+            }
+            // Notify the ai to continue generate keypresses 
+            if(!human) synchronized(aiThread) { aiThread.notify();}
+        }
+
     }
 
     /**
@@ -197,6 +209,7 @@ public class Player implements Runnable {
         setClockFreeze(true);
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
         point = false;
+        dealer.resetTime();
     }
 
     /**
@@ -237,6 +250,13 @@ public class Player implements Runnable {
     public void setRemoveAllCardFromTable(boolean set) {
         removeAllCardsFromTable = set;
     }
-
    
+    public void automatePresses() {
+        List<Integer> deck = Arrays.stream(table.slotToCard).filter(Objects::nonNull).collect(Collectors.toList());
+        env.util.findSets(deck, 1).forEach(set -> {
+            keyPressed(table.cardToSlot[set[0]]);
+            keyPressed(table.cardToSlot[set[1]]);
+            keyPressed(table.cardToSlot[set[2]]);
+        });
+    }
 }

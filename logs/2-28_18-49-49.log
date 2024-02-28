@@ -1,0 +1,51 @@
+[18:49:49.541] [INFO   ] thread bguspl.set.Main.main() starting.
+[18:49:49.549] [SEVERE ] cannot read configuration file config.properties trying from resources.
+[18:49:49.551] [SEVERE ] configuration file was loaded from resources directory.
+[18:49:50.468] [INFO   ] thread dealer starting.
+[18:49:50.470] [INFO   ] thread dealer starting.
+[18:49:50.472] [INFO   ] thread Thread-1 starting.
+[18:49:50.473] [INFO   ] thread Thread-4 starting.
+[18:49:50.472] [INFO   ] thread Thread-2 starting.
+[18:49:50.472] [INFO   ] thread Thread-3 starting.
+[18:49:50.473] [INFO   ] thread Thread-5 starting.
+[18:49:50.475] [INFO   ] thread computer-0 starting.
+[18:49:50.475] [INFO   ] thread computer-3 starting.
+[18:49:50.476] [INFO   ] thread computer-1 starting.
+[18:49:50.480] [INFO   ] thread computer-4 starting.
+[18:49:50.477] [INFO   ] thread computer-2 starting.
+[18:49:50.497] [SEVERE ] updating countdown to 25000
+[18:49:50.630] [SEVERE ] placing card 44 in slot 7
+[18:49:50.758] [SEVERE ] placing card 14 in slot 10
+[18:49:50.869] [SEVERE ] placing card 32 in slot 4
+[18:49:50.978] [SEVERE ] placing card 19 in slot 0
+[18:49:51.088] [SEVERE ] placing card 24 in slot 2
+[18:49:51.200] [SEVERE ] placing card 76 in slot 3
+[18:49:51.310] [SEVERE ] placing card 62 in slot 11
+[18:49:51.420] [SEVERE ] placing card 80 in slot 8
+[18:49:51.531] [SEVERE ] placing card 73 in slot 1
+[18:49:51.642] [SEVERE ] placing card 13 in slot 9
+[18:49:51.753] [SEVERE ] placing card 72 in slot 5
+[18:49:51.864] [SEVERE ] placing card 71 in slot 6
+[18:49:51.865] [SEVERE ] player 1 placing token on slot 5
+[18:49:51.865] [SEVERE ] removing player 1 token from slot 5
+[18:49:51.866] [SEVERE ] player 1 placing token on slot 11
+[18:49:51.866] [SEVERE ] player 1 placing token on slot 2
+[18:49:51.866] [SEVERE ] player 1 placing token on slot 1
+[18:49:51.866] [SEVERE ] player 5 placing token on slot 3
+[18:49:51.867] [SEVERE ] player 5 placing token on slot 6
+[18:49:51.867] [SEVERE ] player 5 placing token on slot 1
+[18:49:51.867] [SEVERE ] player 4 placing token on slot 2
+[18:49:51.867] [SEVERE ] removing player 4 token from slot 2
+[18:49:51.868] [SEVERE ] player 4 placing token on slot 3
+[18:49:51.868] [SEVERE ] player 3 placing token on slot 3
+[18:49:51.868] [SEVERE ] player 3 placing token on slot 2
+[18:49:51.868] [SEVERE ] player 3 placing token on slot 11
+[18:49:51.869] [SEVERE ] player 2 placing token on slot 9
+[18:49:51.869] [SEVERE ] player 2 placing token on slot 1
+[18:49:51.869] [SEVERE ] player 4 placing token on slot 8
+[18:49:51.869] [SEVERE ] player 4 placing token on slot 1
+[18:49:51.870] [SEVERE ] player 2 placing token on slot 11
+[18:49:51.871] [INFO   ] thread dealer terminated.
+[18:49:56.886] [SEVERE ] thanks for playing... it was fun!
+[18:49:56.887] [INFO   ] thread bguspl.set.Main.main() terminated.
+[18:49:56.887] [SEVERE ] disposing of user interface elements

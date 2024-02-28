@@ -6,6 +6,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.Random;
@@ -46,8 +47,8 @@ public class Dealer implements Runnable {
     /*
      * Random field to place the cards
     */
-    private final List<Integer> placeOrder;
-    boolean removedAllCards;
+    private final List<Integer> cardsOrder;
+    boolean removeAllCardsFromTable;
 
     public Dealer(Env env, Table table, Player[] players) {
         this.env = env;
@@ -55,9 +56,9 @@ public class Dealer implements Runnable {
         this.players = players;
         deck = IntStream.range(0, env.config.deckSize).boxed().collect(Collectors.toList());
         Collections.shuffle(deck);
-        placeOrder = IntStream.range(0, env.config.rows * env.config.columns).boxed().collect(Collectors.toList());
-        Collections.shuffle(placeOrder);
-        removedAllCards =false;
+        cardsOrder = IntStream.range(0, env.config.rows * env.config.columns).boxed().collect(Collectors.toList());
+        Collections.shuffle(cardsOrder);
+        removeAllCardsFromTable = true;
        
     }
 
@@ -70,9 +71,10 @@ public class Dealer implements Runnable {
     public void run() {
         env.logger.info("thread " + Thread.currentThread().getName() + " starting.");
         // Creates Thread for each player and call start()
-        for(Player player : players) {
-            Thread playerThread = new Thread(player);
-            playerThread.start();
+        Thread[] playersThreads = new Thread[players.length];
+        for(int i = 0; i < playersThreads.length; i++) {
+            playersThreads[i] = new Thread(players[i]);            
+            playersThreads[i].start();
         }
         // Main loop
         while (!shouldFinish()) {
@@ -81,6 +83,12 @@ public class Dealer implements Runnable {
             timerLoop();
             updateTimerDisplay(true);//check if need to be false
             removeAllCardsFromTable();
+        }
+        terminate();
+        for(Thread player : playersThreads) {
+            try {
+                player.join();
+            } catch (InterruptedException e) {}
         }
         announceWinners();
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
@@ -103,7 +111,11 @@ public class Dealer implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-        // TODO implement
+       terminate = true; 
+       for(Player p : players) {
+         p.terminate();
+                
+       }
     }
 
     /**
@@ -134,6 +146,7 @@ public class Dealer implements Runnable {
                     // Check if set and update player           
                     boolean result = (env.util.testSet(playerCards)) ? true : false;
                     players[playerId].setCheckSet(result);
+                    if(result) env.ui.setCountdown(env.config.turnTimeoutMillis, false);
                     // Update board - true => remove card : false => remove tokens;            
                     for(int token : playerTokens){
                         if(result) table.removeCard(token);
@@ -147,11 +160,10 @@ public class Dealer implements Runnable {
                     for(int id : table.waitingForDealer) {
                         if(table.tokens.get(id).size() < env.config.featureSize) {
                             table.waitingForDealer.remove(id);
-                            table.tokens.get(id).notify();
+                            synchronized(table.tokens.get(id)) {table.tokens.get(id).notify();}                        
                         }
                     }                                  
-                }
-            
+                }   
         }
     }
 
@@ -161,11 +173,19 @@ public class Dealer implements Runnable {
      */
     private void placeCardsOnTable() {
         //for each slot checks if its null and if it is, adds a new card from the deck
-        for(int i =0; i<placeOrder.size(); i++) {
-         if(table.slotToCard[placeOrder.get(i)]==null) table.placeCard(deck.remove(0),placeOrder.get(i));
+        for(int i =0; i<cardsOrder.size(); i++) {
+        if(table.slotToCard[cardsOrder.get(i)]==null && !deck.isEmpty()) table.placeCard(deck.remove(0),cardsOrder.get(i));
         }
-
-          
+        if(removeAllCardsFromTable){
+            // Notify the players
+            for(Player p : players) {
+                synchronized(table.tokens.get(p.id)) {
+                    table.tokens.get(p.id).notify();
+                    p.setRemoveAllCardFromTable(false);
+                }      
+            }   
+            removeAllCardsFromTable = false;
+        }
     }
 
     /**
@@ -176,11 +196,14 @@ public class Dealer implements Runnable {
      * to end the game: 
      */
     private void sleepUntilWokenOrTimeout() {
-        if((reshuffleTime - System.currentTimeMillis()) > env.config.turnTimeoutWarningMillis){
-            try {
-                Thread.sleep(1000);
-            }catch(InterruptedException ignored){} 
-        }       
+        synchronized(table.waitingForDealer){
+            if((reshuffleTime - System.currentTimeMillis()) > env.config.turnTimeoutWarningMillis){
+                try {
+                    table.waitingForDealer.wait(1000);
+                    //Thread.sleep(1000);
+                }catch(InterruptedException ignored){} 
+            } 
+        }      
     }
 
     /**
@@ -205,35 +228,36 @@ public class Dealer implements Runnable {
      * @POST: for 0 < i < 11, SlotToCard[i] == null;
      */
     private void removeAllCardsFromTable() {
-        
-        for(Player p : players) p.setRemoveAllCardFromTable(true);    
-        for(int i=0; i <placeOrder.size(); i++)  {
-            deck.add(table.slotToCard[placeOrder.get(i)]);
-            table.removeCard(placeOrder.get(i));
-        }
-        Collections.shuffle(deck);
+        // Put the player thread's on wait
+        removeAllCardsFromTable = true;
+        for(Player p : players) p.setRemoveAllCardFromTable(true);
 
-        // if removed all cards, changes flag for all plyers and notiys each one 
-            for(Player p : players) {
-                p.setRemoveAllCardFromTable(false); 
-                synchronized(table.tokens.get(p.id)) {
-                    table.tokens.get(p.id).notify();
-                }
-            }
-          
+
+        // return the cards to the deck and shuffle
+        for(int i=0; i <cardsOrder.size(); i++)  {
+            Integer card = table.slotToCard[cardsOrder.get(i)];
+            if(card != null)deck.add(card);
+            table.removeCard(cardsOrder.get(i));
         }
+        Collections.shuffle(deck);          
+    }
     
     /**
      * Check who is/are the winner/s and displays them.
      */
     private void announceWinners() {
-        String winner = "";
-        int maxScore = 0;
-        for(int i = 0; i < env.config.players; i++) {
+        String winner = "" + players[0].id;
+        int maxScore = players[0].score();
+        
+        for(int i = 1; i < env.config.players; i++) {
             if(players[i].score() == maxScore) winner += " " + players[i].id;
-            else if (players[i].score() > maxScore) {winner = "" + (players[i].id); maxScore = players[i].score();}
+            else if (players[i].score() > maxScore) {
+                winner = "" + (players[i].id); 
+                maxScore = players[i].score();
+                }
         }
-        env.ui.announceWinner(Arrays.stream(winner.split(" ")).mapToInt(Integer::parseInt).toArray());
+        int[] winners = Arrays.stream(winner.split(" ")).mapToInt(Integer::parseInt).toArray();
+        env.ui.announceWinner(winners);
     }
 
     private int[] vectorToArray(Vector <Integer> vec) {
@@ -245,4 +269,8 @@ public class Dealer implements Runnable {
         }
         return output;
     }
+
+    public void resetTime() {
+        updateTimerDisplay(true);
+    } 
 }

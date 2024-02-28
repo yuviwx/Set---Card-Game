@@ -153,11 +153,10 @@ public class Table {
     public synchronized void placeToken(int player, int slot) {
         if(slotToCard[slot] != null) {
             tokens.get(player).add(slot);
-            System.out.println(tokens.get(player).toString());
             env.ui.placeToken(player, slot);
             if(tokens.get(player).size() == env.config.featureSize) {
                 waitingForDealer.add(player);
-                //waitingForDealer.notify();
+                synchronized(waitingForDealer){waitingForDealer.notify();}
             }
         }
     }
@@ -173,7 +172,6 @@ public class Table {
     public synchronized boolean removeToken(int player, int slot) {
         if(tokens.get(player).contains(slot)) {
             tokens.get(player).remove((Integer)slot);
-            System.out.println(tokens.get(player).toString());
             env.ui.removeToken(player, slot);
             return true;
         }
@@ -184,6 +182,4 @@ public class Table {
     public boolean isPlaced(int player, int slot){
         return tokens.get(player).contains(slot);
     }
-
-
 }
