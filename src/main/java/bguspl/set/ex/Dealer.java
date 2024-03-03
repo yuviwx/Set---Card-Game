@@ -2,16 +2,12 @@ package bguspl.set.ex;
 
 import bguspl.set.Env;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.Random;
 import java.util.Vector;
-import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * This class manages the dealer's threads and data
@@ -45,11 +41,24 @@ public class Dealer implements Runnable {
     private long reshuffleTime = Long.MAX_VALUE;
 
     /*
-     * Random field to place the cards
+     * Random field to determine the place order of cards
     */
     private final List<Integer> cardsOrder;
+    
+    /*
+     * flag to notifiay the playrs in addcardtotable after removingallcards 
+     */
     boolean removeAllCardsFromTable;
+
+    /*
+     * An array of the player threads
+     */
     Thread[] playersThreads;
+
+    /*
+     * The proper time for sleepUntilWokenOrTimeout
+    */
+    private long sleepingTime;
 
     public Dealer(Env env, Table table, Player[] players) {
         this.env = env;
@@ -60,7 +69,8 @@ public class Dealer implements Runnable {
         cardsOrder = IntStream.range(0, env.config.rows * env.config.columns).boxed().collect(Collectors.toList());
         Collections.shuffle(cardsOrder);
         removeAllCardsFromTable = true;
-        playersThreads = new Thread[players.length];       
+        playersThreads = new Thread[env.config.players];
+        sleepingTime = 0;       
     }
 
     /**
@@ -75,12 +85,16 @@ public class Dealer implements Runnable {
         for(int i = 0; i < playersThreads.length; i++) {
             playersThreads[i] = new Thread(players[i]);            
             playersThreads[i].start();
+            // Make the threads start in 
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException ignored) {}
         }
         // Main loop
         while (!shouldFinish()) {
             placeCardsOnTable();
             timerLoop();
-            updateTimerDisplay(false);
+            //updateTimerDisplay(false);
             removeAllCardsFromTable();
         }
         announceWinners();
@@ -92,9 +106,9 @@ public class Dealer implements Runnable {
      * The inner loop of the dealer thread that runs as long as the countdown did not time out.
      */
     private void timerLoop() {
-        reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis + (long)999;
+        reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
         updateTimerDisplay(false);
-        while (!terminate && System.currentTimeMillis() < reshuffleTime) {
+        while (!terminate && System.currentTimeMillis() < reshuffleTime ) {
             sleepUntilWokenOrTimeout();
             updateTimerDisplay(false);
             removeCardsFromTable();
@@ -108,7 +122,7 @@ public class Dealer implements Runnable {
     public synchronized void terminate() {
         terminate = true;
         removeAllCardsFromTable();
-        for(int i=0; i<players.length; i++){
+        for(int i=env.config.players - 1; i>=0; i--){
             players[i].terminate();
         } 
     }
@@ -191,10 +205,13 @@ public class Dealer implements Runnable {
      * to end the game: 
      */
     private void sleepUntilWokenOrTimeout() {
+        /*long temp = (reshuffleTime - System.currentTimeMillis());
+        long temp2 = Math.round(temp/1000)*1000;
+        sleepingTime = temp - temp2; */
         synchronized(table.waitingForDealer){
             if((reshuffleTime - System.currentTimeMillis()) > env.config.turnTimeoutWarningMillis){
                 try {
-                    table.waitingForDealer.wait(500);
+                    table.waitingForDealer.wait(100);
                 }catch(InterruptedException ignored){} 
             } 
         }
@@ -206,6 +223,7 @@ public class Dealer implements Runnable {
      */
     private void updateTimerDisplay(boolean reset) {
         long remainingTime = reshuffleTime - System.currentTimeMillis();
+        if(remainingTime < 0) remainingTime = 0;
         if (!reset) {
             if(remainingTime < env.config.turnTimeoutWarningMillis){
                 env.ui.setCountdown(remainingTime,true);
@@ -213,7 +231,7 @@ public class Dealer implements Runnable {
             else env.ui.setCountdown(remainingTime,false);
         }
         else {
-            reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis + (long)999;
+            reshuffleTime = System.currentTimeMillis() + env.config.turnTimeoutMillis;
             env.ui.setCountdown(env.config.turnTimeoutMillis,false);
         }
     }

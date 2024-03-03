@@ -6,7 +6,6 @@ import java.util.Objects;
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.stream.Collectors;
-import java.util.Scanner;
 import bguspl.set.Env;
 
 
@@ -109,17 +108,17 @@ public class Player implements Runnable {
         while (!terminate) {
             // Press for ai
             if(!human){
-                /*try {
-                    Thread.sleep(300);
-                } catch (InterruptedException ignored) {}  */
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ignored) {}
                 if(!incomingActions.isEmpty()) keyPressed(incomingActions.remove());      
             }
-            if(id == 0){
+            /*if(id == 0){
                 try {
                     Thread.sleep((long)(1000));
                     automatePresses();
                 } catch (Exception e) {}
-            }
+            } */
             // Wait for dealer when (tokens.size == featureSize)
             synchronized(table.tokens.get(id)) {
                 while (table.tokens.get(id).size() == env.config.featureSize || removeAllCardsFromTable) { 
@@ -150,11 +149,11 @@ public class Player implements Runnable {
             
             // Run loop
             while (!terminate) {
-                //if the computer agent has genereated 3 key-presses we tell the thread to wait
+                //if the computer agent has genereated 'FeatureSize' key-presses we tell the thread to wait
                 synchronized(aiThread){
                     if(incomingActions.size() < env.config.featureSize ){
                         //generating random keypress for the computeragenet
-                        nextPress = rand.nextInt(12);
+                        nextPress = rand.nextInt(env.config.rows * env.config.columns);
                         incomingActions.add(nextPress);  
                     } else {
                         try{ 
@@ -195,7 +194,7 @@ public class Player implements Runnable {
                 Thread.currentThread().interrupt();
              }
     
-}
+        }
     }
 
     /**
@@ -243,13 +242,6 @@ public class Player implements Runnable {
     public int score() {
         return score;
     }
-
-    private int keyToSlot(int key) {
-    int[] playerKeys = env.config.playerKeys(id);    
-    for(int i=0; i<playerKeys.length; i++)
-        if(playerKeys[i] == key) return i;
-    return -1;
-    } 
 
     public void setCheckSet(boolean result) {
         if(result) point = true;

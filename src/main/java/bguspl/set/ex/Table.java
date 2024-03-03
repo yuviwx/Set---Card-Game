@@ -49,8 +49,6 @@ public class Table {
      * @param cardToSlot - mapping between a card and the slot it is in (null if none).
      */
 
-    Object lock_null_slot;
-
     public Table(Env env, Integer[] slotToCard, Integer[] cardToSlot) {
 
         this.env = env;
@@ -59,7 +57,6 @@ public class Table {
         this.tokens = new Vector<Vector<Integer>>(env.config.players);
         initializeTokens();
         this.waitingForDealer = new ArrayBlockingQueue<Integer>(env.config.players);
-        lock_null_slot = new Object();
     }
 
     private void initializeTokens (){
