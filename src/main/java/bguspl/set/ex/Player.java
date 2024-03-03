@@ -108,16 +108,18 @@ public class Player implements Runnable {
 
         while (!terminate) {
             // Press for ai
-            /*if(!human){
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException ignored) {}
+            if(!human){
+                /*try {
+                    Thread.sleep(300);
+                } catch (InterruptedException ignored) {}  */
                 if(!incomingActions.isEmpty()) keyPressed(incomingActions.remove());      
-            }*/
-            try {
-                Thread.sleep(1000);
-                automatePresses();
-            } catch (Exception e) {} 
+            }
+            if(id == 0){
+                try {
+                    Thread.sleep((long)(1000));
+                    automatePresses();
+                } catch (Exception e) {}
+            }
             // Wait for dealer when (tokens.size == featureSize)
             synchronized(table.tokens.get(id)) {
                 while (table.tokens.get(id).size() == env.config.featureSize || removeAllCardsFromTable) { 
@@ -126,15 +128,13 @@ public class Player implements Runnable {
                     } catch (InterruptedException ignored) {}
                 }
             }
-
             // Award/penalize the player
             if(point) point();
             if(penalty) penalty();
 
         }
         if (!human) try { aiThread.join(); } catch (InterruptedException ignored) {}
-        env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");  
-        System.out.println(id + " : main terminted");
+        env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
     }
 
     /**
@@ -174,8 +174,28 @@ public class Player implements Runnable {
      * Called when the game should be terminated.
      */
     public void terminate() {
-       terminate = true;
-       System.out.println(id + " : terminate");
+        removeAllCardsFromTable = false;
+        terminate = true;
+       
+        // Stop and wait for ai
+        if(aiThread != null){
+            aiThread.interrupt();
+            try {
+                aiThread.join();
+            } catch (InterruptedException ignored) {}
+        }
+        
+        // Same for player
+        if(playerThread != null){
+             playerThread.interrupt();
+             try {
+                playerThread.join();
+
+             } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+             }
+    
+}
     }
 
     /**

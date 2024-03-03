@@ -127,7 +127,7 @@ public class Table {
      * @PRE: none
      * @POST: cardToSlot[card] == slotToCard[slot] == null;
      */
-    public void removeCard(int slot) {
+    public synchronized void removeCard(int slot) {
             try {
                 Thread.sleep(env.config.tableDelayMillis);
             } catch (InterruptedException ignored) {}
@@ -158,6 +158,7 @@ public class Table {
                 waitingForDealer.add(player);
                 synchronized(waitingForDealer){waitingForDealer.notify();}
             }
+            //System.out.println(tokens.get(player).toString());
         }
     }
 
@@ -181,5 +182,9 @@ public class Table {
 
     public boolean isPlaced(int player, int slot){
         return tokens.get(player).contains(slot);
+    }
+
+    public void clearWaitingQueue() {
+        waitingForDealer.clear();
     }
 }
