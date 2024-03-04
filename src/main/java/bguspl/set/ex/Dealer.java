@@ -2,9 +2,11 @@ package bguspl.set.ex;
 
 import bguspl.set.Env;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.Vector;
@@ -56,9 +58,9 @@ public class Dealer implements Runnable {
     Thread[] playersThreads;
 
     /*
-     * The proper time for sleepUntilWokenOrTimeout
+     * The start time for turnTimeoutMillis = 0
     */
-    private long sleepingTime;
+    private long startTimer;
 
     public Dealer(Env env, Table table, Player[] players) {
         this.env = env;
@@ -70,7 +72,7 @@ public class Dealer implements Runnable {
         Collections.shuffle(cardsOrder);
         removeAllCardsFromTable = true;
         playersThreads = new Thread[env.config.players];
-        sleepingTime = 0;       
+        startTimer = 0;       
     }
 
     /**
@@ -90,16 +92,39 @@ public class Dealer implements Runnable {
                 Thread.sleep(10);
             } catch (InterruptedException ignored) {}
         }
-        // Main loop
-        while (!shouldFinish()) {
-            placeCardsOnTable();
-            timerLoop();
-            //updateTimerDisplay(false);
-            removeAllCardsFromTable();
+
+        if(env.config.turnTimeoutMillis < 0) {
+            // Main loop
+            while(!shouldFinish()) {
+                beforePlaceOnTable();
+                placeCardsOnTable();
+                timerLoopForNoTime();
+                removeAllCardsFromTable();
+                }
+            }
+        else if (env.config.turnTimeoutMillis == 0) {
+             while(!shouldFinish()) {
+                beforePlaceOnTable();
+                placeCardsOnTable();
+                timerLoopForZero();
+                removeAllCardsFromTable();
+             }
+        }
+    
+        else {
+            // Main loop
+            while (!shouldFinish()) {
+                placeCardsOnTable();
+                timerLoop();
+                updateTimerDisplay(false);
+                removeAllCardsFromTable();
+            }
         }
         announceWinners();
         terminate();
         env.logger.info("thread " + Thread.currentThread().getName() + " terminated.");
+
+        
     }
 
     /**
@@ -162,6 +187,9 @@ public class Dealer implements Runnable {
                         else table.removeToken(playerId, token);
                     }                                 
 
+                    // Reset timer
+                    if(result) resetTime();
+                    
                     // Notify the player
                     table.tokens.get(playerId).notify();
                 }
@@ -286,6 +314,62 @@ public class Dealer implements Runnable {
     }
 
     public void resetTime() {
-        updateTimerDisplay(true);
+        if(env.config.turnTimeoutMillis > 0)
+            updateTimerDisplay(true);
+        else if(env.config.turnTimeoutMillis == 0)
+            updateTimerDisplayForZero(true);
+    }
+
+    // Timer loop for turnTimeoutMillis < 0
+    private void timerLoopForNoTime() {
+        while (!terminate && isThereASet()) {
+            sleepUntilWokenOrTimeout();
+            removeCardsFromTable();
+            placeCardsOnTable();
+        }
     } 
+
+    private boolean isThereASet () {
+        List<Integer> deck = Arrays.stream(table.slotToCard).filter(Objects::nonNull).collect(Collectors.toList());
+        return !env.util.findSets(deck, 1).isEmpty();
+    }
+
+    private void timerLoopForZero() {
+        // Reset timer
+        startTimer = System.currentTimeMillis();
+        env.ui.setElapsed(0);
+        // Timer loop
+        while (!terminate && isThereASet()) {
+            sleepUntilWokenOrTimeout();
+            updateTimerDisplayForZero(false);
+            removeCardsFromTable();
+            placeCardsOnTable();
+        }
+    }
+
+
+    private void updateTimerDisplayForZero(boolean reset) {
+        long currentTime = System.currentTimeMillis() - startTimer;
+        if (!reset) {
+            env.ui.setElapsed(currentTime);
+        }
+        else {
+            startTimer = System.currentTimeMillis();
+            env.ui.setElapsed(0);
+        }
+    }
+
+    private void beforePlaceOnTable(){
+        if(deck.size() >= 12){
+            List<Integer> toPlace = new ArrayList<Integer>();
+            do{ // Do until there is a set in the first 12 cards
+                Collections.shuffle(deck);
+                // Put the first 12 cards from the deck
+                for(int i = 0; i<12; i++){
+                    toPlace.add(deck.get(i));
+                }  
+                // Check if there is a set in them
+            }while(env.util.findSets(toPlace, 1).size() == 0); 
+        }
+    }
 }

@@ -108,17 +108,17 @@ public class Player implements Runnable {
         while (!terminate) {
             // Press for ai
             if(!human){
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException ignored) {}
+                /*try {
+                    Thread.sleep(500);
+                } catch (InterruptedException ignored) {} */
                 if(!incomingActions.isEmpty()) keyPressed(incomingActions.remove());      
             }
-            /*if(id == 0){
+            if(true){
                 try {
-                    Thread.sleep((long)(1000));
+                    Thread.sleep((long)(2000));
                     automatePresses();
                 } catch (Exception e) {}
-            } */
+            }  
             // Wait for dealer when (tokens.size == featureSize)
             synchronized(table.tokens.get(id)) {
                 while (table.tokens.get(id).size() == env.config.featureSize || removeAllCardsFromTable) { 
@@ -228,7 +228,7 @@ public class Player implements Runnable {
         setClockFreeze(true);
         int ignored = table.countCards(); // this part is just for demonstration in the unit tests
         point = false;
-        dealer.resetTime();
+        //dealer.resetTime();
     }
 
     /**
