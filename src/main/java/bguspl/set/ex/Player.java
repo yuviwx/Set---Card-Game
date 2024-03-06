@@ -66,12 +66,11 @@ public class Player implements Runnable {
      */
     private ArrayBlockingQueue<Integer> incomingActions;
 
-    /*
-     * Contains tokens
-     */
+    //flags indicating:
+    // Point/Penalty
     public boolean point;
     public boolean penalty;
-    public boolean freez;
+    // If the board is being reorgenized 
     public boolean removeAllCardsFromTable;
 
     /**
@@ -108,17 +107,19 @@ public class Player implements Runnable {
         while (!terminate) {
             // Press for ai
             if(!human){
-                /*try {
-                    Thread.sleep(500);
-                } catch (InterruptedException ignored) {} */
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ignored) {}
                 if(!incomingActions.isEmpty()) keyPressed(incomingActions.remove());      
             }
-            if(true){
+            // For tests
+            /*if(id==0){
                 try {
                     Thread.sleep((long)(2000));
                     automatePresses();
                 } catch (Exception e) {}
-            }  
+            } */  
+
             // Wait for dealer when (tokens.size == featureSize)
             synchronized(table.tokens.get(id)) {
                 while (table.tokens.get(id).size() == env.config.featureSize || removeAllCardsFromTable) { 
@@ -127,6 +128,7 @@ public class Player implements Runnable {
                     } catch (InterruptedException ignored) {}
                 }
             }
+
             // Award/penalize the player
             if(point) point();
             if(penalty) penalty();
@@ -247,6 +249,8 @@ public class Player implements Runnable {
         if(result) point = true;
         else penalty = true;
     }
+    
+    // Incharge of freezing the player for penalty/score
     public void setClockFreeze (boolean success) {
         long counter = success ? env.config.pointFreezeMillis : env.config.penaltyFreezeMillis;
         while(counter > 0) {

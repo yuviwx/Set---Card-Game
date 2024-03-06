@@ -35,10 +35,13 @@ public class Table {
     protected final Integer[] cardToSlot; // slot per card (if any)
 
     /*
-     * The data stracture for the game 
+     * The data stracture for the game: holds the tokes for each player as there slots
      */
-
     final Vector<Vector<Integer>> tokens;
+
+    /*
+     * A list of players who are waiting for there set to be checked
+     */
     final ArrayBlockingQueue<Integer> waitingForDealer;
     
     /**
@@ -155,7 +158,6 @@ public class Table {
                 waitingForDealer.add(player);
                 synchronized(waitingForDealer){waitingForDealer.notify();}
             }
-            //System.out.println(tokens.get(player).toString());
         }
     }
 
