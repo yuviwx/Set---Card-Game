@@ -27,8 +27,6 @@ Follow the on-screen instructions to interact with the game. Human players can u
 ## Notes
 
 - Ensure you have Java and Maven installed on your system.
-- Refer to the provided documentation and source code for detailed implementation guidelines.
-- For any questions or issues, refer to the course forum or contact the project maintainer.
 
 ---
 ## Authors
